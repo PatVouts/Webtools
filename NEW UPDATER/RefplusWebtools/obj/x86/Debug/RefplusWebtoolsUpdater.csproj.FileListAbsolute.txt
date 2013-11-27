@@ -1,0 +1,24 @@
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.FrmUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.Properties.Resources.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csproj.GenerateResource.Cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsUpdater.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.FrmUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.Properties.Resources.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NEW UPDATER\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsUpdater.csproj.GenerateResource.Cache

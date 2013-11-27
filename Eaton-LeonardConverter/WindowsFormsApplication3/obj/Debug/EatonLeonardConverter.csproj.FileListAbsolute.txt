@@ -1,0 +1,14 @@
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.MainMenu.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.Properties.Resources.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.csproj.GenerateResource.Cache
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\EatonLeonardConverter.exe.config
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\EatonLeonardConverter.exe
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\EatonLeonardConverter.pdb
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.Converter.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.FrmBOM.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.FrmJobInfo.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.exe
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.pdb
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.csprojResolveAssemblyReference.cache
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.FrmTubeSize.resources
+C:\Users\pvoutsinas\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\EatonLeonardConverter.csproj.ResolveComReference.cache

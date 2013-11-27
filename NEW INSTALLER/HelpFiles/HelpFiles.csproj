@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26F67423-82B0-4856-98AF-CFF0D619D9A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HelpFiles</RootNamespace>
+    <AssemblyName>HelpFiles</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Content Include="CondensingUnitModelManager.htm" />
+    <Content Include="ContactManager.htm" />
+    <Content Include="ContactInformation.htm" />
+    <Content Include="AdditionalItems.htm" />
+    <Content Include="Clipboard.htm" />
+    <Content Include="CompressorData.htm" />
+    <Content Include="CondensingUnitOptionsManager.htm" />
+    <Content Include="CondensingUnitReceivers.htm" />
+    <Content Include="CondensingUnitWaterCooledCondenser.htm" />
+    <Content Include="CondenserModels.htm" />
+    <Content Include="CondenserParts.htm" />
+    <Content Include="CasingMaterialPricesManager.htm" />
+    <Content Include="CoilBlygold.htm" />
+    <Content Include="CoilHeader.htm" />
+    <Content Include="CoilSettings.htm" />
+    <Content Include="CondenserPriceIncrease.htm" />
+    <Content Include="CondensingUnitPriceIncrease.htm" />
+    <Content Include="CompressorBalancing.htm" />
+    <Content Include="AdvancedSearch.htm" />
+    <Content Include="GroupPermissions.htm" />
+    <Content Include="CustomFluidForm.htm" />
+    <Content Include="EngineeringReport.htm" />
+    <Content Include="OEMCoil.htm" />
+    <Content Include="OEMMaterialInfo.htm" />
+    <Content Include="OEMHeaderInfo.htm" />
+    <Content Include="EditPrice.htm" />
+    <Content Include="GravityCoilPriceIncrease.htm" />
+    <Content Include="FluidCoolerPriceIncrease.htm" />
+    <Content Include="EvaporatorPriceIncrease.htm" />
+    <Content Include="HeresiteSafety.htm" />
+    <Content Include="ElectroFinAdjustment.htm" />
+    <Content Include="Pictures\AdvancedSearch\AddFilter.JPG" />
+    <Content Include="Pictures\AdvancedSearch\AdvancedSearch.JPG" />
+    <Content Include="Pictures\AdvancedSearch\CloseForm.JPG" />
+    <Content Include="Pictures\AdvancedSearch\OpenQuote.JPG" />
+    <Content Include="Pictures\AdvancedSearch\Reset.JPG" />
+    <Content Include="Pictures\AdvancedSearch\Search.JPG" />
+    <Content Include="Pictures\Balancing\AddEmpty.JPG" />
+    <Content Include="Pictures\Balancing\AddFromList.JPG" />
+    <Content Include="Pictures\Balancing\Balance.JPG" />
+    <Content Include="Pictures\Balancing\CloseButton.JPG" />
+    <Content Include="Pictures\Balancing\CompressorBalancing.JPG" />
+    <Content Include="Pictures\Balancing\CopyToClipboard.JPG" />
+    <Content Include="Pictures\Balancing\RemoveCompressor.JPG" />
+    <Content Include="Pictures\Balancing\ShowCapacity.JPG" />
+    <Content Include="Pictures\Balancing\ShowCondensing.JPG" />
+    <Content Include="Pictures\Balancing\ShowEER.JPG" />
+    <Content Include="Pictures\Balancing\ShowKilowatts.JPG" />
+    <Content Include="Pictures\Balancing\ShowLiquidPressureDrop.JPG" />
+    <Content Include="Pictures\CustomFluid\CancelButton.JPG" />
+    <Content Include="Pictures\CustomFluid\CustomFluidForm.JPG" />
+    <Content Include="Pictures\CustomFluid\SaveButton.JPG" />
+    <Content Include="Pictures\DataManager\OEM Coil\OEMCoilMaterialInfo.JPG" />
+    <Content Include="Pictures\EngineeringReport\EngineeringReport.JPG" />
+    <Content Include="Pictures\EngineeringReport\GenerateButton.JPG" />
+    <Content Include="Pictures\GroupPermissions\GroupPermissionsForm.JPG" />
+    <Content Include="Pictures\GroupPermissions\PermissionClose.JPG" />
+    <Content Include="Pictures\ManageGroups\GroupManagerForm.JPG" />
+    <Content Include="Pictures\ManageGroups\GroupPermissions.JPG" />
+    <Content Include="Pictures\OEMCoil\NextButton.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMAccept.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMAddConnection.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMCoilModel.JPG" />
+    <Content Include="Pictures\DataManager\OEM Coil\OEMHeaderInfo.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondenserPriceIncrease\CloseButton.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondenserPriceIncrease\CondenserPriceIncrease.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondenserPriceIncrease\ConfirmationButton.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondenserPriceIncrease\PreviewButton.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondenserPriceIncrease\PreviewCorrections.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondensingUnitPriceIncrease\CondensingUnitPreviewChanges.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CondensingUnitPriceIncrease\CondensingUnitPriceIncrease.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\EditPrice\AcceptButton.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\EditPrice\CancelButton.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\EditPrice\EditPrice.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\ElectroFinAdjustment\ElectroFinAdjustment.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\EvaporatorPriceIncrease\EvaporatorPreviewChange.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\EvaporatorPriceIncrease\EvaporatorPriceChange.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\FluidCoolerPriceIncrease\FluidCoolerPreviewPrice.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\FluidCoolerPriceIncrease\FluidCoolerPriceChange.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\GravityCoilPriceIncrease\GravityCoilPreviewPrice.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\GravityCoilPriceIncrease\GravityCoilPriceChange.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\HeresiteSafety\HeresiteSafety.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMMaterial.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMOptions.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMPricing.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMRemoveConnection.JPG" />
+    <Content Include="Pictures\OEMCoil\OEMReturnBends.JPG" />
+    <Content Include="Pictures\OEMCoil\PreviousButton.JPG" />
+    <Content Include="ReturnBendCost.htm" />
+    <Content Include="MiscSettingsRate.htm" />
+    <Content Include="MadocRate.htm" />
+    <Content Include="ElectroFinRate.htm" />
+    <Content Include="Pictures\DataManager\CasingMaterialPrices\CasingMaterialPrices.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CoilBlygold\CoilBlygoldForm.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CoilHeader\PricingCoilHeader.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\CoilSettings\CoilSettingsForm.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\ElectroFinRate\ElectroFinRate.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\MadocRate\MadocRate.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\MiscSettings\MiscSettings.JPG" />
+    <Content Include="Pictures\DataManager\Pricing\ReturnBendCost\ReturnBendCost.JPG" />
+    <Content Include="Pictures\DataManager\TubeMaterialPrices\TubeMaterialPrices.JPG" />
+    <Content Include="TubeMaterialPricesManager.htm" />
+    <Content Include="FinMaterialPricesManager.htm" />
+    <Content Include="EvaporatorModels.htm" />
+    <Content Include="DefrostHeaterManager.htm" />
+    <Content Include="DrawingsManager.htm" />
+    <Content Include="MotorModelManager.htm" />
+    <Content Include="MotorMountManager.htm" />
+    <Content Include="FanGuardManager.htm" />
+    <Content Include="FanModelManager.htm" />
+    <Content Include="Pictures\DataManager\CompressorData\CompressorDataDialog.JPG" />
+    <Content Include="Pictures\DataManager\CondenserModels\CondenserClose.JPG" />
+    <Content Include="Pictures\DataManager\CondenserModels\CondenserModelsForm.JPG" />
+    <Content Include="Pictures\DataManager\CondenserModels\CondenserSave.JPG" />
+    <Content Include="Pictures\DataManager\CondenserModels\LoadCondenser.JPG" />
+    <Content Include="Pictures\DataManager\CondenserParts\CondenserPartsForm.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\AddButton.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\AutoBalance.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\BalancingModule.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\CloseButton.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\CondensingUnitBalancingInfo.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\CondensingUnitCoilInfo.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\CondensingUnitCompressorInfo.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\CondensingUnitModelInfo.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\DeleteCondensingUnit.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\Extrapolate.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\GenerateCoilButton.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\LoadCondensingUnit.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\LoadOldModel.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\RemoveCompressor.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\RemoveWaterCondenser.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\ResetBalancing.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\SaveButton.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitModel\ValidateModel.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\CondensingUnitOptionsForm.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\DeleteOption.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\LoadOption.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\PickAll.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\SaveButton.JPG" />
+    <Content Include="Pictures\DataManager\CondensingUnitOptions\UnPickAll.JPG" />
+    <Content Include="Pictures\DataManager\DefrostHeater\DefrostHeaterForm.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsBrowse.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsClose.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsForm.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsPrevireFile.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsSave.JPG" />
+    <Content Include="Pictures\DataManager\Drawings\DrawingsUpload.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\ChangeEvapModel.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\CondenserPartsForm.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\DeleteEvapModel.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\EvapClose.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\EvaporatorCoilInfo.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\EvaporatorModelForm.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\EvapPartsInfo.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\EvapSave.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\GenerateCoilModel.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\LoadEvapModel.JPG" />
+    <Content Include="Pictures\DataManager\EvaporatorModels\ValidateEvapModel.JPG" />
+    <Content Include="Pictures\DataManager\FanGuard\FanGuardClose.JPG" />
+    <Content Include="Pictures\DataManager\FanGuard\FanGuardDialog.JPG" />
+    <Content Include="Pictures\DataManager\FanGuard\FanGuardSave.JPG" />
+    <Content Include="Pictures\DataManager\FanModel\FanModel.JPG" />
+    <Content Include="Pictures\DataManager\FanModel\FanModelClose.JPG" />
+    <Content Include="Pictures\DataManager\FanModel\FanModelSave.JPG" />
+    <Content Include="Pictures\DataManager\FinMaterialPrices\FinMaterialPrices.JPG" />
+    <Content Include="Pictures\DataManager\MotorModel\MotorModelDialog.JPG" />
+    <Content Include="Pictures\DataManager\MotorMount\MotorMountDialog.JPG" />
+    <Content Include="Pictures\DataManager\Receivers\CondensingUnitReceiver.JPG" />
+    <Content Include="Pictures\DataManager\WaterCooledCondenser\WaterCooledCondenserForm.JPG" />
+    <Content Include="Pictures\PrintingOptions\PrintingContinue.JPG" />
+    <Content Include="Pictures\PrintingOptions\PrintingOptionsDialog.JPG" />
+    <Content Include="PrintingOptions.htm" />
+    <Content Include="Pictures\AdditionalItems\AdditionalItemsClose.JPG" />
+    <Content Include="Pictures\AdditionalItems\AdditionalItemsForm.JPG" />
+    <Content Include="Pictures\AdditionalItems\AdditonalItemsSave.JPG" />
+    <Content Include="Pictures\AdditionalItems\AddNewItemButton.JPG" />
+    <Content Include="Pictures\AdditionalItems\CopyButton.JPG" />
+    <Content Include="Pictures\AdditionalItems\PasteButton.JPG" />
+    <Content Include="Pictures\AdditionalItems\RemoveItemButton.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardAccept.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardCancel.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardClear.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardForm.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardPickAll.JPG" />
+    <Content Include="Pictures\Clipboard\ClipboardUnpickAll.JPG" />
+    <Content Include="Pictures\UserInformation\UserCancel.JPG" />
+    <Content Include="Pictures\UserInformation\UserInfoForm.JPG" />
+    <Content Include="Pictures\UserInformation\UserSave.JPG" />
+    <Content Include="UserInformation.htm" />
+    <Content Include="ManageGroups.htm" />
+    <Content Include="Pictures\ContactInformaiton\ContactInfoClose.JPG" />
+    <Content Include="Pictures\ContactInformaiton\ContactInfoForm.JPG" />
+    <Content Include="Pictures\ContactInformaiton\SaveContact.JPG" />
+    <Content Include="Pictures\ContactInformaiton\ValidateEmail.JPG" />
+    <Content Include="Pictures\ContactManager\AddContactButton.JPG" />
+    <Content Include="Pictures\ContactManager\ContactManagerForm.JPG" />
+    <Content Include="Pictures\ContactManager\EditContactButton.JPG" />
+    <Content Include="Pictures\ContactManager\ManageGroupsButton.JPG" />
+    <Content Include="Pictures\ManageGroups\GroupManageCancel.JPG" />
+    <Content Include="Pictures\ManageGroups\SaveChanges.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitAccept.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitAdd.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitCancel.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitForm.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitGenerateReport.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitMoveDown.JPG" />
+    <Content Include="Pictures\QuickCustomUnit\CustomUnitMoveUp.JPG" />
+    <Content Include="QuickCustomUnit.htm" />
+    <Content Include="Pictures\QuickHeatPipe\HeatPipeAccept.JPG" />
+    <Content Include="Pictures\QuickHeatPipe\HeatPipeCancel.JPG" />
+    <Content Include="Pictures\QuickHeatPipe\HeatPipeForm.JPG" />
+    <Content Include="QuickHeatPipe.htm" />
+    <Content Include="QuickFluidCooler.htm" />
+    <Content Include="Pictures\QuickFluidCooler\FluidCoolerAccept.JPG" />
+    <Content Include="Pictures\QuickFluidCooler\FluidCoolerCancel.JPG" />
+    <Content Include="Pictures\QuickFluidCooler\FluidCoolerForm.JPG" />
+    <Content Include="Pictures\QuickFluidCooler\FluidCoolerRunSelection.JPG" />
+    <Content Include="Pictures\QuickGravityCoil\GravityCoilAccept.JPG" />
+    <Content Include="Pictures\QuickGravityCoil\GravityCoilCancel.JPG" />
+    <Content Include="Pictures\QuickGravityCoil\GravityCoilForm.JPG" />
+    <Content Include="Pictures\QuickGravityCoil\GravityCoilRunSelection.JPG" />
+    <Content Include="QuickGravityCoil.htm" />
+    <Content Include="Pictures\QuickEvaporator\EvaporatorAccept.JPG" />
+    <Content Include="Pictures\QuickEvaporator\EvaporatorCancel.JPG" />
+    <Content Include="Pictures\QuickEvaporator\EvaporatorRunSelection.JPG" />
+    <Content Include="Pictures\QuickEvaporator\QuickEvaporatorForm.JPG" />
+    <Content Include="QuickEvaporator.htm" />
+    <Content Include="Pictures\QuickCondensingUnit\CondensingUnitAccept.JPG" />
+    <Content Include="Pictures\QuickCondensingUnit\CondensingUnitCancel.JPG" />
+    <Content Include="Pictures\QuickCondensingUnit\CondensingUnitForm.JPG" />
+    <Content Include="Pictures\QuickCondensingUnit\CondensingUnitRunSelection.JPG" />
+    <Content Include="QuickCondensingUnit.htm" />
+    <Content Include="Pictures\SecondaryOptions\SecondaryOptionsAccept.JPG" />
+    <Content Include="Pictures\SecondaryOptions\SecondaryOptionsForm.JPG" />
+    <Content Include="SecondaryOptions.htm" />
+    <Content Include="QuickControlPanel.htm" />
+    <Content Include="Pictures\QuickCondenser\AcceptButton.JPG" />
+    <Content Include="Pictures\QuickCondenser\AddCircuitButton.JPG" />
+    <Content Include="Pictures\QuickCondenser\CancelButton.JPG" />
+    <Content Include="Pictures\QuickControlPanel\ControlPanelAccept.JPG" />
+    <Content Include="Pictures\QuickCondenser\QuickCondenser.JPG" />
+    <Content Include="Pictures\QuickControlPanel\QuickControlPanel.JPG" />
+    <Content Include="Pictures\QuickCondenser\RemoveCircuitButton.JPG" />
+    <Content Include="Pictures\QuickCondenser\SecondaryOptions.JPG" />
+    <Content Include="QuickCondenser.htm" />
+    <Content Include="Pictures\QuickCoil\CancelButton.JPG" />
+    <Content Include="Pictures\QuickCoil\CustomFluidForm.JPG" />
+    <Content Include="Pictures\QuickCoil\DefineButton.JPG" />
+    <Content Include="Pictures\QuickCoil\FluidHeatingCooling.JPG" />
+    <Content Include="Pictures\QuickCoil\HeatReclaimCoil.JPG" />
+    <Content Include="Pictures\QuickCoil\PrintSpecButton.JPG" />
+    <Content Include="Pictures\QuickCoil\QuickCoilForm.JPG" />
+    <Content Include="Pictures\QuickCoil\RunSelectionButton.JPG" />
+    <Content Include="Pictures\QuickCoil\SaveButton.JPG" />
+    <Content Include="Pictures\QuickCoil\SteamCoil.JPG" />
+    <Content Include="QuickCoil.htm" />
+    <Content Include="OpenQuote.htm" />
+    <Content Include="Pictures\OpenQuote\AdvancedSearchButton.JPG" />
+    <Content Include="Pictures\OpenQuote\CloseButton.JPG" />
+    <Content Include="Pictures\OpenQuote\OpenQuoteButton.JPG" />
+    <Content Include="Pictures\OpenQuote\OpenQuoteForm.JPG" />
+    <Content Include="Pictures\Quotes\AddUnit.JPG" />
+    <Content Include="Pictures\Quotes\BrowseContacts.JPG" />
+    <Content Include="Pictures\Quotes\ClearButton.JPG" />
+    <Content Include="Pictures\Quotes\CloseButton.JPG" />
+    <Content Include="Pictures\Quotes\EditAdditionalItems.JPG" />
+    <Content Include="Pictures\Quotes\EditUnit.JPG" />
+    <Content Include="Pictures\Quotes\GenerateSpecButton.JPG" />
+    <Content Include="Pictures\Quotes\PreviewQuote.JPG" />
+    <Content Include="Pictures\Quotes\RemoveUnit.JPG" />
+    <Content Include="Pictures\Quotes\SaveQuoteButton.JPG" />
+    <Content Include="Pictures\Quotes\SpecialReports.JPG" />
+    <Content Include="QuoteForm.htm" />
+    <Content Include="MainMenu.htm" />
+    <Content Include="Pictures\MainMenu.jpg" />
+    <Content Include="Pictures\Quotes\QuoteForm.JPG" />
+    <Content Include="Template.htm" />
+  </ItemGroup>
+</Project>

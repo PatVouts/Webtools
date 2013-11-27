@@ -1,0 +1,84 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VoltageID" type="xs:double" />
+                <xs:element name="VoltDescription">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VoltsValue" type="xs:double" />
+                <xs:element name="PhaseNumber" type="xs:double" />
+                <xs:element name="HzValue" type="xs:double" />
+                <xs:element name="CapacityMultiplier" type="xs:double" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <VoltageID>1</VoltageID>
+    <VoltDescription>120/1/60</VoltDescription>
+    <VoltsValue>120</VoltsValue>
+    <PhaseNumber>1</PhaseNumber>
+    <HzValue>60</HzValue>
+    <CapacityMultiplier>1</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>2</VoltageID>
+    <VoltDescription>240/1/60</VoltDescription>
+    <VoltsValue>240</VoltsValue>
+    <PhaseNumber>1</PhaseNumber>
+    <HzValue>60</HzValue>
+    <CapacityMultiplier>1</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>3</VoltageID>
+    <VoltDescription>200/3/50</VoltDescription>
+    <VoltsValue>200</VoltsValue>
+    <PhaseNumber>3</PhaseNumber>
+    <HzValue>50</HzValue>
+    <CapacityMultiplier>0.92</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>5</VoltageID>
+    <VoltDescription>208-240/3/60</VoltDescription>
+    <VoltsValue>240</VoltsValue>
+    <PhaseNumber>3</PhaseNumber>
+    <HzValue>60</HzValue>
+    <CapacityMultiplier>1</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>6</VoltageID>
+    <VoltDescription>400/3/50</VoltDescription>
+    <VoltsValue>400</VoltsValue>
+    <PhaseNumber>3</PhaseNumber>
+    <HzValue>50</HzValue>
+    <CapacityMultiplier>0.92</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>8</VoltageID>
+    <VoltDescription>600/3/60</VoltDescription>
+    <VoltsValue>600</VoltsValue>
+    <PhaseNumber>3</PhaseNumber>
+    <HzValue>60</HzValue>
+    <CapacityMultiplier>1</CapacityMultiplier>
+  </Table>
+  <Table>
+    <VoltageID>9</VoltageID>
+    <VoltDescription>480/3/60</VoltDescription>
+    <VoltsValue>480</VoltsValue>
+    <PhaseNumber>3</PhaseNumber>
+    <HzValue>60</HzValue>
+    <CapacityMultiplier>1</CapacityMultiplier>
+  </Table>
+</NewDataSet>

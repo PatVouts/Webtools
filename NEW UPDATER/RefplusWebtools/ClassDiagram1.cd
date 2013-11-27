@@ -1,0 +1,1838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RefplusWebtools.AdvancedSearch.Filter" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAAgAAgAAAAgAAUAAAAQQEAAAAAAAQAAAA=</HashCode>
+      <FileName>AdvancedSearch\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.AdvancedSearch.FilterData" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAACAAAAAAAAASAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>AdvancedSearch\FilterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.AdvancedSearch.frmAdvancedSearch" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>M05gSIhoEKY4YsiYKouwIVHHQgJpRABKjgQRrB8QKig=</HashCode>
+      <FileName>AdvancedSearch\frmAdvancedSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Balancing.CompressorBalancing" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Balancing\CompressorBalancing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Balancing.CompressorCondenserCoil" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQACAIAAAAAAEAAAAAAAAAAAACAAAAAAAAAAgA=</HashCode>
+      <FileName>Balancing\CompressorCondenserCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Balancing.frmCompressorCondenserCoilBalancing" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ErEoAjAATSigAHEsgE+wzAiTEkvBhzi4VEZD8RKgRtI=</HashCode>
+      <FileName>Balancing\frmCompressorCondenserCoilBalancing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.BalancingData" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAEAABAAAAIQAAAAACABEAAgAAAAEABEAAEAA=</HashCode>
+      <FileName>Balancing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.ComboBoxControl" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAECBCAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComboBoxControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.CBOITEM" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAAEAAA=</HashCode>
+      <FileName>ComboBoxControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.ComboboxDefault" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAEAAABAAAA=</HashCode>
+      <FileName>ComboBoxControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Compression" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Compressor" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEEAAMABj2AWC4F0AAACAgAAEQABAAAAAAAAAIAAA=</HashCode>
+      <FileName>Compressor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.ComputerInformations" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAAACAAAAAAAAAAAAAAABAAAAAAIAAAAA=</HashCode>
+      <FileName>ComputerInformations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DrawingManager" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAABAAAAgACAAAAAAAAAAAAAAgAAAAAAACAAAAAA=</HashCode>
+      <FileName>DrawingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Encryption" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Encryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FileManager" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FingerPrint" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAABAAIAAAACAARBAAACIACACUAAAAQAAAAAAAAg=</HashCode>
+      <FileName>FingerPrint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FingerPrintHandler" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAIAAAAAIIAAAAAAQAAEAAAFAACAgAAAA=</HashCode>
+      <FileName>FingerPrintHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FocusApplication" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAABAAAAgAAAgAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>FocusApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FolderManager" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>FolderManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmChangePassword" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAACAgBABAAACUAAACEAABAAAgQAAAAAEAAQA=</HashCode>
+      <FileName>frmChangePassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmClipboard" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAQAiEEAhAAAACBxggCACgCAUAABAAAIAAIAEg=</HashCode>
+      <FileName>frmClipboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmCustomReportLogo" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAABACEhAAgAAADcAAACAABAAAAgAAABAAACAAg=</HashCode>
+      <FileName>frmCustomReportLogo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmLogin" Collapsed="true">
+    <Position X="23.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgASAAQAGQAAgEAAACCAAACIEAABAAAAhAAAgAAAAA=</HashCode>
+      <FileName>frmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmMain" Collapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dz2Shd/F5nG67HemIhSmqr/fz8VR/a4haX/uqcI/XOU=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmSavingOption" Collapsed="true">
+    <Position X="23.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAABAAABCAAAACAEAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>frmSavingOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.frmThreadProcess" Collapsed="true">
+    <Position X="26.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAEAAAAACAAACCAIAIAAkAAAAAAAAAAAA=</HashCode>
+      <FileName>frmThreadProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.GlacialListHandler" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlacialListHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.HelpFiles" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HelpFiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.InternalClipboard" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAAAAQAAEAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>InternalClipboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.LoadingCircle" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAvAAECCBCAABBoAQjCoAAATAikGAIG0RFAApAwBQEQ=</HashCode>
+      <FileName>LoadingCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Offline" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Offline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Online" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQIAAAAAAAAQgAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Online.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Program" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Public" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EDAAEIBICAAAghkAiQMSAMSAIAZAgAgBE4BBAIAAAGA=</HashCode>
+      <FileName>Public.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.PublicityManager" Collapsed="true">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEQAAA=</HashCode>
+      <FileName>PublicityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Query" Collapsed="true">
+    <Position X="18" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAIgAQQAEAAAQIgEAAqAACQgAAAAAACAAAQAAAAEI=</HashCode>
+      <FileName>Query.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.CondenserReceiverCharge" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIEAoAgFwAAAAIAJIEIAAiXAEQIAHAAAAAACBQBQAE=</HashCode>
+      <FileName>QuickCondenser\CondenserReceiverCharge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Charge" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAAIAEAAAAAABEAAAAAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>QuickCondenser\CondenserReceiverCharge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.RefrigerantCharge" Collapsed="true">
+    <Position X="11" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgAAAABAAAAACAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>RefrigerantCharge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Reg" Collapsed="true">
+    <Position X="14.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.SoundRatingManager" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEEAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoundRatingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.StringManipulation" Collapsed="true">
+    <Position X="11" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>StringManipulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tables" Collapsed="true">
+    <Position X="12.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAFAQAciAQASAAEAAIFIAACAAAKQAkgACAAAIAhAEA=</HashCode>
+      <FileName>Tables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.ThreadProcess" Collapsed="true">
+    <Position X="14.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAIEAQAAAAAAAAAAAAIEAAAIAQAAQAAAAA=</HashCode>
+      <FileName>ThreadProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.UserInformation" Collapsed="true">
+    <Position X="23.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jQk4QLjQBiQZTIHAoApQFcm0BBTKDBAgKwASgkEKjmE=</HashCode>
+      <FileName>UserInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebReader" Collapsed="true">
+    <Position X="2.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAgAAAAQAAAAAAAAAAAAACA=</HashCode>
+      <FileName>WebReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Coil.CoolingCoil" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQpAAoJPEmADYwUATAgiiGCbYAQSoIA6AWhCBkCBRwA=</HashCode>
+      <FileName>Coil\CoolingCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Contact.frmContactGroupManager" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEGAEYAAAGSgAADAkACWACCCQ2AIAAQoBAAIKSABElQ=</HashCode>
+      <FileName>Contact\frmContactGroupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Contact.frmContactInformations" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g0wgxMAYCGAGAAAACALOIB2CRgggHoFiBAAAIAARIAQ=</HashCode>
+      <FileName>Contact\frmContactInformations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Contact.frmContactManager" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANAkIQIFCiCABBAELAGgQSACAAAEIAggBDAAIBAMIAA=</HashCode>
+      <FileName>Contact\frmContactManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Contact.frmSpecialGroupPermission" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABAiAgAAACAASQAAQCAAEggAAgBAAAJgJBABI=</HashCode>
+      <FileName>Contact\frmSpecialGroupPermission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Contact.frmUserInformations" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFwZQJUQ4CQgSJBgQQGGBAsSIWSLBgmgVhoAIAAVBiA=</HashCode>
+      <FileName>Contact\frmUserInformations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptoXML.XMLEncryptor" Collapsed="true">
+    <Position X="4" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAQEAICAAABAABBgAQQEAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CryptoXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegionalSettings.CustomRegionalSettings" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CustomRegionalSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Condenser.frmCondenserManager" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MNSIANIbDaeoUFiXhlCUwACDCARMUEAgTIAWYgIMQgg=</HashCode>
+      <FileName>DataManager\Condenser\frmCondenserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Condenser.frmCondenserParts" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAIIIYASggACAgAyCUAAACAAgACACiDIAEoCAQkAA=</HashCode>
+      <FileName>DataManager\Condenser\frmCondenserParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Condenser.frmCondenserPricingReport" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAQAAABAACAAAgCAAAAAAAAAAgAAgAAAAA=</HashCode>
+      <FileName>DataManager\Condenser\frmCondenserPricingReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanGuardUpdater" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YADAKIIEPWMgACVICiCUCApKCJIaYAAgiiACgICAggo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitFanGuardUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanUpdater" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YADAOIYEPWIgACVICiCUCApKAJIaYAAgiiACgICAggo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitFanUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorMountUpdater" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YADAKIIEPWIgACVIKiCUCApKAJIaYAEgiiACgICAggo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitMotorMountUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorUpdater" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YADECKAMOSIgACVIiiCUCApKApJKYAAggiACgICAggo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitMotorUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitOptions" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEDMKKJEPWIECCdIimGGCCpKAJJaYIxgjiCKoJCYwwo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitReceiver" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAIIAgCggAEAAQgCUgAwCAAQYCAAoBIAAIBBAAgA=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitWaterCooledCondenser" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMAAAIIAACggAEAAQgCUggACABQYCAAoBIAAIBBAAwA=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmCondensingUnitWaterCooled.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.frmDrawingManagerCondesingUnit" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEDMOIJEPWIkCSdICiGeCA5KAJJaYAQgiiiChJCAgwo=</HashCode>
+      <FileName>DataManager\CondensingUnit\frmDrawingManagerCondesingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.CondensingUnit.RefplusQuotesExcelDatabase" Collapsed="true">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataManager\CondensingUnit\RefplusQuotesExcelDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmAddEditOption" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQcAUACAAAAAAAACMAAgCAAAKiAAiCAQAAAAQAQA=</HashCode>
+      <FileName>DataManager\ControlPanel\frmAddEditOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmAddEditOptionLogic" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAUIAUACgAAACAEEGEIVgCABEDAgArCQgAAIAAAhI=</HashCode>
+      <FileName>DataManager\ControlPanel\frmAddEditOptionLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmAddEditPanel" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQMAQACAAgAAAAACEAAgCAAAIGAAgCAAAAAAABAA=</HashCode>
+      <FileName>DataManager\ControlPanel\frmAddEditPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmAddEditPanelLogic" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIcYAQBGmAkAKAEEG0IUgKABMREgApCSgAAIAAJpI=</HashCode>
+      <FileName>DataManager\ControlPanel\frmAddEditPanelLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmControlPanelOptionManager" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwIAKAgDCAgAAACAACUAAACAAAKAAIACEAAIAQACAA=</HashCode>
+      <FileName>DataManager\ControlPanel\frmControlPanelOptionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.ControlPanel.frmControlPanelPanelManager" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAKSgCCAgAAwEAACYAAACAAAIAAAAgEABIAQEAAg=</HashCode>
+      <FileName>DataManager\ControlPanel\frmControlPanelPanelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Evaporator.frmEvaporatorDrawingManager" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAgcMMJAHGglCSJIUAOfEAwCAAAYAgghDAiABBAABAI=</HashCode>
+      <FileName>DataManager\Evaporator\frmEvaporatorDrawingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Evaporator.frmEvaporatorModel" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>e0g0fPA5yS6YcCsg/WSMsrSKGw/MOdHslbk24HMo8jo=</HashCode>
+      <FileName>DataManager\Evaporator\frmEvaporatorModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Evaporator.frmEvaporatorOptions" Collapsed="true">
+    <Position X="25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEgdIMJAHGgFCCJIUEOHEAgCgAAYAoBhDAyAABAYRgo=</HashCode>
+      <FileName>DataManager\Evaporator\frmEvaporatorOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerManager" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZIEAAJmgjicikEAIyEycACpDKjAIJNkjASESwINIQqg=</HashCode>
+      <FileName>DataManager\FluidCooler\frmFluidCoolerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerPricingReport" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAQAAAAAACAAAgCAAAAAAAAAQgAAgAAAAA=</HashCode>
+      <FileName>DataManager\FluidCooler\frmFluidCoolerPricingReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmCompressor" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEAEAKIAJSgiQAgKQwiUgCACBEAYACYpBIFIInhgCgk=</HashCode>
+      <FileName>DataManager\Generic\frmCompressor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmCompressorImportExport" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAACAoAAAAAACYAAACABAAAIAAAAhAAgAIAAA=</HashCode>
+      <FileName>DataManager\Generic\frmCompressorImportExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmDefrostHeater" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAIAIIABCggYAAAQACUmQhGAAAYAJAoBIAAIBBAQgg=</HashCode>
+      <FileName>DataManager\Generic\frmDefrostHeater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmDrawingFileManager" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgggAAQCggAgAAAASQAEAKAAAAAAAAAIABAAAAAAA=</HashCode>
+      <FileName>DataManager\Generic\frmDrawingFileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmDrawingUpload" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAEQCEgAAAAAACQAAAKAAAAAAAABIABAAAAAAE=</HashCode>
+      <FileName>DataManager\Generic\frmDrawingUpload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmFanGuard" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAIAIIAAKihAAAEQACcoBACAAAZEAAoBIAAIBBAQgg=</HashCode>
+      <FileName>DataManager\Generic\frmFanGuard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmFanModel" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEQAAIKAACihCAAUQACcgAADAAAYAAAoBKQAIJRQQgg=</HashCode>
+      <FileName>DataManager\Generic\frmFanModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmGenericDrawingManager" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAIIQBKAkAAIIAACcAAQCAAAAAAAgAIiIABAAIAA=</HashCode>
+      <FileName>DataManager\Generic\frmGenericDrawingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmMotorModel" Collapsed="true">
+    <Position X="26.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lUAAIKIAACggABAoQgCUwAAiAAAYAJApBIQEYBBQQgg=</HashCode>
+      <FileName>DataManager\Generic\frmMotorModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmMotorMount" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAIIIIAACygAAAAYACdgFACAAIYAAIoBIAAIBBAQkg=</HashCode>
+      <FileName>DataManager\Generic\frmMotorMount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmOptionPack" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCAFCAQEAjA0AAQAAAKCAgCDAQAgAAAIASAAKhIUAkA=</HashCode>
+      <FileName>DataManager\Generic\frmOptionPack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmPublicity" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgUAAAACAkIgAAAACAAASSAIAAAAAAAAAAgAAgAAA=</HashCode>
+      <FileName>DataManager\Generic\frmPublicity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmPublicityManager" Collapsed="true">
+    <Position X="26.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAACCQgBAABAACQAACCAAAIABQgCEBAAAAAgAA=</HashCode>
+      <FileName>DataManager\Generic\frmPublicityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Generic.frmPublicityUpload" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAICAgIAAAAACVAAICAAIFAAAgACAAEAAAQAc=</HashCode>
+      <FileName>DataManager\Generic\frmPublicityUpload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.OEMCoil.frmOEMCoilHeaderInformation" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAACAgAAAAgACUAAACAACCAAAgBAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\OEMCoil\frmOEMCoilHeaderInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.OEMCoil.frmOEMCoilMaterialInformation" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABACAgAAAAEACVAAACAAAAAAAgBAAGIAAAAgA=</HashCode>
+      <FileName>DataManager\OEMCoil\frmOEMCoilMaterialInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmCasingMaterialDensityPrices" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACCAgAAAAAAiUCAACAAAAAEAgBAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmCasingMaterialDensityPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmCondenserPricingIncrease" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEQAAQRCAgAgAAAYWQAAACAUBABACgBhABoCgAAjk=</HashCode>
+      <FileName>DataManager\Pricing\frmCondenserPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmCondensingUnitOptionsPriceIncrease" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEQAAQBCAgAgABAIWQAAACAUBABAAAAgABoCgAAiE=</HashCode>
+      <FileName>DataManager\Pricing\frmCondensingUnitOptionsPriceIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmCondensingUnitPricingIncrease" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAQAAQTCAgQgQAAIWQAAACAUBABACAFlABqCgCAjE=</HashCode>
+      <FileName>DataManager\Pricing\frmCondensingUnitPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmConfirmPriceChange" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAQACAACgAACACAAAACAYgAAAAAAQAAAAAAQAA=</HashCode>
+      <FileName>DataManager\Pricing\frmConfirmPriceChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmControlPanelAndOptionPriceIncrease" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABCAgAAAAEICQAAACAABABAAAAAABgAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmControlPanelAndOptionPriceIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmControlPanelPanelAndOptionPrices" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgEACQgFAAAACKUAAADJgD4RyAoAAIARAAEBCg=</HashCode>
+      <FileName>DataManager\Pricing\frmControlPanelPanelAndOptionPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmEditPrice" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAYAAQACABAgAAAACAAIACAAoACAAABAAAIIAAAgQ=</HashCode>
+      <FileName>DataManager\Pricing\frmEditPrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmElectroFinAdjustement" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACQgAgIAAQCUAAACAAAAAAAgBAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmElectroFinAdjustement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmEvaporatorBlygoldPricingIncrease" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAQBCAgAgIAAIWQAAACAUBQBAAABgABoCgAAjE=</HashCode>
+      <FileName>DataManager\Pricing\frmEvaporatorBlygoldPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmEvaporatorOptionsPricingIncrease" Collapsed="true">
+    <Position X="26.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgGQAAQBCAgAgAAAIWQAAACAUBABAAAAgABoCgAAiE=</HashCode>
+      <FileName>DataManager\Pricing\frmEvaporatorOptionsPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmEvaporatorPricingIncrease" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAQRCAgAgAECIWQAAACAUBCBACABhABoCgAAjE=</HashCode>
+      <FileName>DataManager\Pricing\frmEvaporatorPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmFinMaterialDensityPrices" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAKAgAAAAAACUAAICAAAAAEAgBgAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmFinMaterialDensityPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmFluidCoolerPricingIncrease" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAQRCAgAgIAAIWQAAACAUBQBACgBhABoCgAAjk=</HashCode>
+      <FileName>DataManager\Pricing\frmFluidCoolerPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmGravityCoilBlygoldPricingIncrease" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAQBCAgAgIAAIWQAAACAUBQBAAABgABoCgAAjE=</HashCode>
+      <FileName>DataManager\Pricing\frmGravityCoilBlygoldPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmGravityCoilPricingIncrease" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAQQRCAgAgAAAIWUAAACAUBgBACABhABoCgAEjk=</HashCode>
+      <FileName>DataManager\Pricing\frmGravityCoilPricingIncrease.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmHeresiteSafety" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAMAIIiAgAIAgAACUAAAKAAQAAAQgBAAEJAAAAgA=</HashCode>
+      <FileName>DataManager\Pricing\frmHeresiteSafety.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingCoilBlygold" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAJIAAqAgkAAECACUwAACIAAAJAAyBCEMYAAMAoA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingCoilBlygold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingCoilHeader" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAACAgAAAAAECUAAACAAAEgAAgBAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingCoilHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingCoilSettings" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wXAAgJQBI/CqBExAKBLVINEyhnCAjwCthIgkIAAKAlA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingCoilSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingElectroFinRate" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAgAAAAAACUAAgCAAACAAAghACGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingElectroFinRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingMadocRate" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACIgAAAAAQCUAAACAAAAAAAgBIAGIAIAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingMadocRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingMiscSettings" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAgAACAAACUAAACAAAAIAAoBAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingMiscSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmPricingReturnBendCost" Collapsed="true">
+    <Position X="23.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAACAgAAAAAACUAAACBAAAAAAgBBAGIAEAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmPricingReturnBendCost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.DataManager.Pricing.frmTubeMaterialDensityPrices" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAgAAAAAACUAAACAABAAEAgJAAGIAAAAAA=</HashCode>
+      <FileName>DataManager\Pricing\frmTubeMaterialDensityPrices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FluidCoolerCondenserOptions.frmFluidCoolerCondenserOptions" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eIAAgEAQDCGAUhAQFRWBzACCABpAAEMADwhBNIAAJgQ=</HashCode>
+      <FileName>FluidCoolerCondenserOptions\frmFluidCoolerCondenserOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FluidCoolerCondenserOptions.LegCode" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAEAAABAAAAAAAAAAAAAAAQQAAAAACACA=</HashCode>
+      <FileName>FluidCoolerCondenserOptions\LegCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.FluidCoolerCondenserOptions.Leg" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAQAgARAAAAAAAIAAAAAAIAAAIAAAAAAAQAA=</HashCode>
+      <FileName>FluidCoolerCondenserOptions\LegCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.OEMCoil.frmOEMCoil" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>v+KvvfsXdfPxojb13TjrW7beektHfkb5f9F8doL/P+c=</HashCode>
+      <FileName>OEMCoil\frmOEMCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.OEMCoil.OEMCode" Collapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAQEAAAAAAAAQICAAAAAAAAgQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OEMCoil\OEMCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.OEMCoil.OEMCoilFormat" Collapsed="true">
+    <Position X="26.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgEAgBABICEAAUAAAAgQqQASAAIAMhkAACBYBgiYQCg=</HashCode>
+      <FileName>OEMCoil\OEMCoilFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.OEMCoil.OEMReport" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OEMCoil\OEMReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PDF_Class.PDF_Merge" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIBAIAAAAAAAAAAAQAAAAAAAAQAAAA=</HashCode>
+      <FileName>PDF_Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PDF_Class.PdfPageEvents" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAACAIVBAAgAAQAAACAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>PDF_Class.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.BoosterCoil" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQgAIkAAwAIAgAAMACAEgAoAQAAAAAACAQACBBQUAA=</HashCode>
+      <FileName>Pricing\BoosterCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.CasingFinishPricing" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\CasingFinishPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.BlyGoldCoating" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>goQAQKFCCQCAJAJMkQBABgAIMIAAAoQAACIEQIAwgwk=</HashCode>
+      <FileName>Pricing\Coating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.HeresiteCoating" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAIAoAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\Coating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.ElectroFinCoating" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAEAAAIAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\Coating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.ControlPanelPricing" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\ControlPanelPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.EvaporatorPricing" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\EvaporatorPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.FC_OACC_Options_Pricing" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pricing\FC_OACC_Options_Pricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.OEMCoilPricing" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sDAJGeAg4hQyCZuIJKgYqaF8BgIAlkKCAQ8KBACIAXY=</HashCode>
+      <FileName>Pricing\OEMCoilPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.Headers" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQAAAAAAABAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Pricing\OEMCoilPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.Distributor" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAABAAEAAABAAAgAAAApCAA=</HashCode>
+      <FileName>Pricing\OEMCoilPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.FlareFitting" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAQgAgAAIAAA=</HashCode>
+      <FileName>Pricing\OEMCoilPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.StandardCoil" Collapsed="true">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQgAIkAAwAIAgAAMACAEgAoAQAAAAQACAQACBBQUAA=</HashCode>
+      <FileName>Pricing\StandardCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Pricing.SteamCoil" Collapsed="true">
+    <Position X="9.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQgAAgAAwAKAgAAMACAAgAoAQAAAAAACAQAAABQUAA=</HashCode>
+      <FileName>Pricing\SteamCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Properties.Resources" Collapsed="true">
+    <Position X="16.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAgAAAAABEAAAAQAgAAEBAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAACAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.CoilInternalVolume" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\CoilInternalVolume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.CoilReport" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\CoilReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.DX_Dimensions" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAQFAQ4RUBSAAIMAgAAIAAgARACFANBACACoFhIAE=</HashCode>
+      <FileName>QuickCoil\CoilReportDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.HR_Dimensions" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAwFAQ4RUBSAAIMAgAAAgAiARACAAdBACACoFhYQE=</HashCode>
+      <FileName>QuickCoil\CoilReportDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FCFH_Dimensions" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAwAwFAQ4RUBaCAYMAgAEAgCigRACAAdhACAGoFhYQE=</HashCode>
+      <FileName>QuickCoil\CoilReportDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.STEAM_Dimensions" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwEAFAQgQQBSAAIEAgAAAACgABACBAYgGAAOIkBAAE=</HashCode>
+      <FileName>QuickCoil\CoilReportDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.CoilWeight" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAiAMAEAAAAEAAAAEggAAAAQAAAQIAAQA=</HashCode>
+      <FileName>QuickCoil\CoilWeight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.DXcoil" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lAEAEAgAAGABAxQgSAAgiACCIAQAgAAwAapCBkAABwA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.Type" Collapsed="true">
+    <Position X="19.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.RefrigerantType" Collapsed="true">
+    <Position X="12.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEADJAAAAAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FinMaterial" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.TubeMaterial" Collapsed="true">
+    <Position X="16.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FinType" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnkAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FinShape" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkACAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.TubeType" Collapsed="true">
+    <Position X="18" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\DX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FluidCooling" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAIABgoJAGADAwSASAAiiACaIAQCgAAwAShCBkAABwA=</HashCode>
+      <FileName>QuickCoil\FluidCooling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.FluidHeating" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIABgoJAGADAwSASAAiiACaIAQCgAAwAShCBkAABwA=</HashCode>
+      <FileName>QuickCoil\FluidHeating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.frmCoilCoating" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAACAAAgAABACAJAACAAgAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\frmCoilCoating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.frmOtherFluid" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAYIoACgFABkAAALCAEICCAAAQQCIJIEBoAAABgA=</HashCode>
+      <FileName>QuickCoil\frmOtherFluid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.frmQuickCoil" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>//+u+X+//3//vv/332b//7zvf/fv4ffvv/vf/7t/1/c=</HashCode>
+      <FileName>QuickCoil\frmQuickCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.HeatReclaim" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAEAAAgAAGABAxQgbAAgiACCaEYAoAAwASpGBEACBwA=</HashCode>
+      <FileName>QuickCoil\HeatReclaim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.QuickCoilCode" Collapsed="true">
+    <Position X="19.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAABgOBABEAIAQAQDAAACKAgAgQSMQEAAQBgAcA0=</HashCode>
+      <FileName>QuickCoil\QuickCoilCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCoil.Steam" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgAIGABAwQASAAgiACCIAQAAAAwAahCAAAABwA=</HashCode>
+      <FileName>QuickCoil\Steam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondenser.CondenserReport" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCondenser\CondenserReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondenser.frmCircuitEdit" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEFAABAAlGJAEECgEACIAADCAAAQEAEoIAEAAgAgkMA=</HashCode>
+      <FileName>QuickCondenser\frmCircuitEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondenser.frmQuickCondenser" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>rFimRSIady/G04RBakHIxmPmeKt/NAahHuIkeAN0dgs=</HashCode>
+      <FileName>QuickCondenser\frmQuickCondenser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondenser.QuickCondenserCode" Collapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AigoBMDAAACAIgBARAEBAAEAAIQFAAJEAAEoIBAAAAI=</HashCode>
+      <FileName>QuickCondenser\QuickCondenserCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondenser.CondenserSelectionType" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJAAAAAAAIAMAAAAAAAABIAACIAAgAiAAQAAQ=</HashCode>
+      <FileName>QuickCondenser\QuickCondenserCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondensingUnit.CondensingUnitCode" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABgAAAAABAAAAAEAAABAAAAAAAA=</HashCode>
+      <FileName>QuickCondensingUnit\CondensingUnitCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondensingUnit.CondensingUnitReport" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCondensingUnit\CondensingUnitReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondensingUnit.frmCondensingUnitOption" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAACQgLBgHgQEAACQKAHCQEgAFIIMIBBEBEFASAA=</HashCode>
+      <FileName>QuickCondensingUnit\frmCondensingUnitOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCondensingUnit.frmQuickCondensingUnit" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JOAuwzIVzaAAolRN1Ai4yTDiCgotiKcsXRKGMMDEKm4=</HashCode>
+      <FileName>QuickCondensingUnit\frmQuickCondensingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickControlPanel.ControlPanelCode" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBgAAAiFAEBETAAAAAAAAIAAABgACIAABAAAAQAAEA=</HashCode>
+      <FileName>QuickControlPanel\ControlPanelCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickControlPanel.frmQuickControlPanel" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EPgE4suSw6bAy1l16biJprymk+w8o7VVZaUAbKokBmk=</HashCode>
+      <FileName>QuickControlPanel\frmQuickControlPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickControlPanel.Valve" Collapsed="true">
+    <Position X="25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oABIAQAAIAAAAgAAAEAAAAIAAAGgkADAIAAARAAQAAA=</HashCode>
+      <FileName>QuickControlPanel\Valve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickControlPanel.ValveList" Collapsed="true">
+    <Position X="26.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAIIAAABAAEEAAAAAAwQAAAAAAQAAICIAA=</HashCode>
+      <FileName>QuickControlPanel\ValveList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCustomUnit.CustomUnitReport" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCustomUnit\CustomUnitReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCustomUnit.frmQuickCustomUnit" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQqQSaQwCgwh6gBC1iIAjiDoEgswEoADITmIIABYwo=</HashCode>
+      <FileName>QuickCustomUnit\frmQuickCustomUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCustomUnit.frmSaveTemplate" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQIAQQCAggAQAIACAAAAiABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCustomUnit\frmSaveTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCustomUnit.QuickCustomUnitSpec" Collapsed="true">
+    <Position X="23.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAQAJAAAQAAAAAAAIAAgIAAAAAAACCAABBAAABAA=</HashCode>
+      <FileName>QuickCustomUnit\QuickCustomUnitSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickCustomUnit.CachedQuickCustomUnitSpec" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCustomUnit\QuickCustomUnitSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RefplusWebtools.QuickEvaporator.EvaporatorReport" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickEvaporator\EvaporatorReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickEvaporator.frmEvaporatorCoating" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAACAACgAJBACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickEvaporator\frmEvaporatorCoating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickEvaporator.frmEvaporatorOption" Collapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAECQAKBgFgAEAACAKAGCAUgAEAIMJAAEBEFASAA=</HashCode>
+      <FileName>QuickEvaporator\frmEvaporatorOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickEvaporator.frmQuickEvaporator" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>J8CuwToZTiaChlAQRBCuzCDCAgooEQpkDAAMOINgKg8=</HashCode>
+      <FileName>QuickEvaporator\frmQuickEvaporator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickEvaporator.QuickEvaporatorCode" Collapsed="true">
+    <Position X="25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARgGAAEAgAEAQFAgIEEAAAAQQAAEAAUgAAASAAAA=</HashCode>
+      <FileName>QuickEvaporator\QuickEvaporatorCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickFluidCooler.FluidCoolerCode" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACBwgABAAEAAAACQABCISCAAQAgAQAEAAAAAEAAA=</HashCode>
+      <FileName>QuickFluidCooler\FluidCoolerCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickFluidCooler.FluidCoolerReport" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickFluidCooler\FluidCoolerReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickFluidCooler.frmQuickFluidCooler" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>7EE2Y7NawW0Xk6BFalnKhGLnOihMcNcoPHRk6ABet2M=</HashCode>
+      <FileName>QuickFluidCooler\frmQuickFluidCooler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickGravityCoil.frmGravityCoil" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NEYq4SoQRGCQkggARICEomCDAAgKMQIgbRhEIUAgagI=</HashCode>
+      <FileName>QuickGravityCoil\frmGravityCoil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickGravityCoil.GravityCoilReport" Collapsed="true">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickGravityCoil\GravityCoilReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickGravityCoil.QuickGravityCoilCode" Collapsed="true">
+    <Position X="26.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAgAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>QuickGravityCoil\QuickGravityCoilCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickHeatPipe.frmQuickHeatPipe" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qEHG4zERxXAKgpICAEjMYiCSYKQSEIZAHyRGaBYQAxc=</HashCode>
+      <FileName>QuickHeatPipe\frmQuickHeatPipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickHeatPipe.HeatPipe" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>z0D+JAAUCHIggBwEC6xLk4AxorciakGISyUv1gIHzMA=</HashCode>
+      <FileName>QuickHeatPipe\HeatPipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickHeatPipe.HeatPipeReport" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickHeatPipe\HeatPipeReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickHeatPipe.QuickHeatPipeCode" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>QuickHeatPipe\QuickHeatPipeCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickWaterEvaporator.frmQuickWaterEvaporator" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>5IQW4TJYQKgQioAUTBHoSCCKCCwIQAYECDFkQAAUokc=</HashCode>
+      <FileName>QuickWaterEvaporator\frmQuickWaterEvaporator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorCoating" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAoAAAACAACgABBACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickWaterEvaporator\frmWaterEvaporatorCoating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorOption" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAACQAKBgFgIEAACAKAGCAUgAEAIMJAAEBEFASAA=</HashCode>
+      <FileName>QuickWaterEvaporator\frmWaterEvaporatorOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickWaterEvaporator.QuickWaterEvaporatorCode" Collapsed="true">
+    <Position X="2.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABBCAiIAQCEAwkAwAgGhQSAAAABUgAEkAAERgBAw=</HashCode>
+      <FileName>QuickWaterEvaporator\QuickWaterEvaporatorCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.QuickWaterEvaporator.WaterEvaporatorReport" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickWaterEvaporator\WaterEvaporatorReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.frmAddCUOption" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAIASAgAAAAAACQABACAAAIAAAAAAAECAAAAQA=</HashCode>
+      <FileName>Quotes\frmAddCUOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.frmAdditionalItems" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABAAQQaAkAAAAECCUACCCgwAQAMMgBAgEIgAAAoA=</HashCode>
+      <FileName>Quotes\frmAdditionalItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.frmOpenQuote" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYEBAQgADIiQAEAAACQAAAGAABEIAAFBCABIAMAAGA=</HashCode>
+      <FileName>Quotes\frmOpenQuote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.frmQuotePrintOptions" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYgAACJIECEAIAAQAAGAABADASAgAAQABAQAIAAgACA=</HashCode>
+      <FileName>Quotes\frmQuotePrintOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.frmQuotes" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>u29Tn71s7SrvVtsMLg+9pnWr7rbc/7p3f3arqfW+304=</HashCode>
+      <FileName>Quotes\frmQuotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.QuoteCoverPageData" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAgAAAAAAAABAAIBAAAQAAAAAAAgEAAAAA=</HashCode>
+      <FileName>Quotes\frmQuotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.QuoteCode" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Quotes\QuoteCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Quotes.QuoteItem" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Quotes\QuoteItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Report.EngineeringReport.ER_Condenser" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Report\EngineeringReport\ER_Condenser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Report.EngineeringReport.ER_CondensingUnit" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Report\EngineeringReport\ER_CondensingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Report.EngineeringReport.frmEngineeringReport" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQKICABAAAECAAAgCAgQACQQIBAAAIEAAAAA=</HashCode>
+      <FileName>Report\EngineeringReport\frmEngineeringReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.Conversion" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSAkEigQAm4kExREJBAYFEDIBaYAACoQQ0iAADABgA=</HashCode>
+      <FileName>Tools\Conversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.Formula" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAAgAAAAAAAAABAAAAAAAAABBAAAAAAAAA=</HashCode>
+      <FileName>Tools\Formula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.Fraction" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAGAAAAAAACCEAAAAAAAICAAAAAA=</HashCode>
+      <FileName>Tools\Fraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.Language" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAQAAAAAAAgGAAAAAACAABAAAAQAAAAABAE=</HashCode>
+      <FileName>Tools\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.LanguageType" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tools\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.Tools.PsyCalcFormula" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiAAAAAAAAAAgAAAABAACAABAgAAAAIAABgABCABAAI=</HashCode>
+      <FileName>Tools\PsyCalcFormula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.Service" Collapsed="true">
+    <Position X="26.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cuQMgAZSE6ACzGQ4qAM1lAQKDwCEuUEIizDSQwoUrMM=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetPublicityCompletedEventArgs" Collapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.SendPublicityCompletedEventArgs" Collapsed="true">
+    <Position X="23.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetPublicityListCompletedEventArgs" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetDrawingCompletedEventArgs" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetDrawing_NEWCompletedEventArgs" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetCategoryCompletedEventArgs" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.SendDrawingCompletedEventArgs" Collapsed="true">
+    <Position X="21.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.SendDrawing_NEWCompletedEventArgs" Collapsed="true">
+    <Position X="19.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetDrawingListCompletedEventArgs" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetDrawingList_NEWCompletedEventArgs" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.SelectCompletedEventArgs" Collapsed="true">
+    <Position X="18" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.ExecuteCompletedEventArgs" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetVersionCompletedEventArgs" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.UpdateFilesCompletedEventArgs" Collapsed="true">
+    <Position X="21.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.CompressTableCompletedEventArgs" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetWanIPCompletedEventArgs" Collapsed="true">
+    <Position X="23.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.ObtainSessionIDCompletedEventArgs" Collapsed="true">
+    <Position X="23.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.GetSoundRatingCompletedEventArgs" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RefplusWebtools.WebService.SendSoundRatingCompletedEventArgs" Collapsed="true">
+    <Position X="25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RefplusWebtools.QuickCoil.DesignType" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickCoil\QuickCoilCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="RefplusWebtools.WebService.GetPublicityCompletedEventHandler" Collapsed="true">
+    <Position X="12.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.SendPublicityCompletedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetPublicityListCompletedEventHandler" Collapsed="true">
+    <Position X="14.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetDrawingCompletedEventHandler" Collapsed="true">
+    <Position X="7.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetDrawing_NEWCompletedEventHandler" Collapsed="true">
+    <Position X="5.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetCategoryCompletedEventHandler" Collapsed="true">
+    <Position X="4" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.SendDrawingCompletedEventHandler" Collapsed="true">
+    <Position X="26.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.SendDrawing_NEWCompletedEventHandler" Collapsed="true">
+    <Position X="25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetDrawingListCompletedEventHandler" Collapsed="true">
+    <Position X="11" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetDrawingList_NEWCompletedEventHandler" Collapsed="true">
+    <Position X="9.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.SelectCompletedEventHandler" Collapsed="true">
+    <Position X="23.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.ExecuteCompletedEventHandler" Collapsed="true">
+    <Position X="2.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetVersionCompletedEventHandler" Collapsed="true">
+    <Position X="18" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.UpdateFilesCompletedEventHandler" Collapsed="true">
+    <Position X="4" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.CompressTableCompletedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetWanIPCompletedEventHandler" Collapsed="true">
+    <Position X="19.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.ObtainSessionIDCompletedEventHandler" Collapsed="true">
+    <Position X="21.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.GetSoundRatingCompletedEventHandler" Collapsed="true">
+    <Position X="16.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RefplusWebtools.WebService.SendSoundRatingCompletedEventHandler" Collapsed="true">
+    <Position X="2.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\WebService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

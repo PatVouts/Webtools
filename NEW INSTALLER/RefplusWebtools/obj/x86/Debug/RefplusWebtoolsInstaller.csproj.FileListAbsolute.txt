@@ -1,0 +1,12 @@
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.csproj.GenerateResource.Cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsInstaller.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.Properties.Resources.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsInstaller.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtoolsInstaller.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\bin\x86\Debug\Interop.IWshRuntimeLibrary.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtoolsInstaller.FrmInstaller.resources

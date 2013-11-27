@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <PublishUrlHistory>publish\|http://localhost/RefplusWebtools/</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ReferencePath>C:\Program Files (x86)\Business Objects\Common\4.0\managed\dotnet2;C:\Program Files\Business Objects\Common\4.0\managed\dotnet2</ReferencePath>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <StartAction>Project</StartAction>
+    <RemoteDebugMachine>
+    </RemoteDebugMachine>
+    <StartProgram>
+    </StartProgram>
+  </PropertyGroup>
+</Project>

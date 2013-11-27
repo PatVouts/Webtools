@@ -1,0 +1,38 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="HzValue" type="xs:int" />
+                <xs:element name="PowerSupply">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CapacityMultiplier" type="xs:double" />
+                <xs:element name="Active" type="xs:int" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <HzValue>50</HzValue>
+    <PowerSupply>50Hz</PowerSupply>
+    <CapacityMultiplier>0.92</CapacityMultiplier>
+    <Active>1</Active>
+  </Table>
+  <Table>
+    <HzValue>60</HzValue>
+    <PowerSupply>60Hz</PowerSupply>
+    <CapacityMultiplier>1</CapacityMultiplier>
+    <Active>1</Active>
+  </Table>
+</NewDataSet>

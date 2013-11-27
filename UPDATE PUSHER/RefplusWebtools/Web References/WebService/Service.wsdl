@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetPublicity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FilenameWithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPublicityResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendPublicity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bFile" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FilenameWithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendPublicityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendPublicityResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicityList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublicityListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPublicityListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetDrawing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrawingNamewithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDrawingResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawing_NEW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrawingNamewithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawing_NEWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDrawing_NEWResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCategoryResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrawing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bFile" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="DrawingNamewithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrawingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendDrawingResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrawing_NEW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bFile" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="DrawingNamewithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDrawing_NEWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendDrawing_NEWResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDrawingListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingList_NEW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDrawingList_NEWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDrawingList_NEWResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TSQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelectResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Execute">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TSQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExecuteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FirstFile" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="LastFile" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateFilesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CompressTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TSQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CompressTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CompressTableResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWanIP">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetWanIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWanIPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtainSessionID">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtainSessionIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtainSessionIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSoundRating">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FilenameWithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSoundRatingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSoundRatingResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSoundRating">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bFile" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FilenameWithExtention" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSoundRatingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendSoundRatingResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPublicitySoapIn">
+    <wsdl:part name="parameters" element="tns:GetPublicity" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicitySoapOut">
+    <wsdl:part name="parameters" element="tns:GetPublicityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendPublicitySoapIn">
+    <wsdl:part name="parameters" element="tns:SendPublicity" />
+  </wsdl:message>
+  <wsdl:message name="SendPublicitySoapOut">
+    <wsdl:part name="parameters" element="tns:SendPublicityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicityListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPublicityList" />
+  </wsdl:message>
+  <wsdl:message name="GetPublicityListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPublicityListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDrawing" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDrawingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawing_NEWSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDrawing_NEW" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawing_NEWSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDrawing_NEWResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCategory" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDrawingSoapIn">
+    <wsdl:part name="parameters" element="tns:SendDrawing" />
+  </wsdl:message>
+  <wsdl:message name="SendDrawingSoapOut">
+    <wsdl:part name="parameters" element="tns:SendDrawingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDrawing_NEWSoapIn">
+    <wsdl:part name="parameters" element="tns:SendDrawing_NEW" />
+  </wsdl:message>
+  <wsdl:message name="SendDrawing_NEWSoapOut">
+    <wsdl:part name="parameters" element="tns:SendDrawing_NEWResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDrawingList" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDrawingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingList_NEWSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDrawingList_NEW" />
+  </wsdl:message>
+  <wsdl:message name="GetDrawingList_NEWSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDrawingList_NEWResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelectSoapIn">
+    <wsdl:part name="parameters" element="tns:Select" />
+  </wsdl:message>
+  <wsdl:message name="SelectSoapOut">
+    <wsdl:part name="parameters" element="tns:SelectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSoapIn">
+    <wsdl:part name="parameters" element="tns:Execute" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFiles" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="CompressTableSoapIn">
+    <wsdl:part name="parameters" element="tns:CompressTable" />
+  </wsdl:message>
+  <wsdl:message name="CompressTableSoapOut">
+    <wsdl:part name="parameters" element="tns:CompressTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWanIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWanIP" />
+  </wsdl:message>
+  <wsdl:message name="GetWanIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWanIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtainSessionIDSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtainSessionID" />
+  </wsdl:message>
+  <wsdl:message name="ObtainSessionIDSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtainSessionIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSoundRatingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSoundRating" />
+  </wsdl:message>
+  <wsdl:message name="GetSoundRatingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSoundRatingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSoundRatingSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSoundRating" />
+  </wsdl:message>
+  <wsdl:message name="SendSoundRatingSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSoundRatingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetPublicity">
+      <wsdl:input message="tns:GetPublicitySoapIn" />
+      <wsdl:output message="tns:GetPublicitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendPublicity">
+      <wsdl:input message="tns:SendPublicitySoapIn" />
+      <wsdl:output message="tns:SendPublicitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicityList">
+      <wsdl:input message="tns:GetPublicityListSoapIn" />
+      <wsdl:output message="tns:GetPublicityListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing">
+      <wsdl:input message="tns:GetDrawingSoapIn" />
+      <wsdl:output message="tns:GetDrawingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing_NEW">
+      <wsdl:input message="tns:GetDrawing_NEWSoapIn" />
+      <wsdl:output message="tns:GetDrawing_NEWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategory">
+      <wsdl:input message="tns:GetCategorySoapIn" />
+      <wsdl:output message="tns:GetCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing">
+      <wsdl:input message="tns:SendDrawingSoapIn" />
+      <wsdl:output message="tns:SendDrawingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing_NEW">
+      <wsdl:input message="tns:SendDrawing_NEWSoapIn" />
+      <wsdl:output message="tns:SendDrawing_NEWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList">
+      <wsdl:input message="tns:GetDrawingListSoapIn" />
+      <wsdl:output message="tns:GetDrawingListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList_NEW">
+      <wsdl:input message="tns:GetDrawingList_NEWSoapIn" />
+      <wsdl:output message="tns:GetDrawingList_NEWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select">
+      <wsdl:input message="tns:SelectSoapIn" />
+      <wsdl:output message="tns:SelectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <wsdl:input message="tns:ExecuteSoapIn" />
+      <wsdl:output message="tns:ExecuteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:input message="tns:GetVersionSoapIn" />
+      <wsdl:output message="tns:GetVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFiles">
+      <wsdl:input message="tns:UpdateFilesSoapIn" />
+      <wsdl:output message="tns:UpdateFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CompressTable">
+      <wsdl:input message="tns:CompressTableSoapIn" />
+      <wsdl:output message="tns:CompressTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWanIP">
+      <wsdl:input message="tns:GetWanIPSoapIn" />
+      <wsdl:output message="tns:GetWanIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtainSessionID">
+      <wsdl:input message="tns:ObtainSessionIDSoapIn" />
+      <wsdl:output message="tns:ObtainSessionIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSoundRating">
+      <wsdl:input message="tns:GetSoundRatingSoapIn" />
+      <wsdl:output message="tns:GetSoundRatingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSoundRating">
+      <wsdl:input message="tns:SendSoundRatingSoapIn" />
+      <wsdl:output message="tns:SendSoundRatingSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPublicity">
+      <soap:operation soapAction="http://tempuri.org/GetPublicity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendPublicity">
+      <soap:operation soapAction="http://tempuri.org/SendPublicity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicityList">
+      <soap:operation soapAction="http://tempuri.org/GetPublicityList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing">
+      <soap:operation soapAction="http://tempuri.org/GetDrawing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing_NEW">
+      <soap:operation soapAction="http://tempuri.org/GetDrawing_NEW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategory">
+      <soap:operation soapAction="http://tempuri.org/GetCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing">
+      <soap:operation soapAction="http://tempuri.org/SendDrawing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing_NEW">
+      <soap:operation soapAction="http://tempuri.org/SendDrawing_NEW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList">
+      <soap:operation soapAction="http://tempuri.org/GetDrawingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList_NEW">
+      <soap:operation soapAction="http://tempuri.org/GetDrawingList_NEW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select">
+      <soap:operation soapAction="http://tempuri.org/Select" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <soap:operation soapAction="http://tempuri.org/Execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="http://tempuri.org/GetVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFiles">
+      <soap:operation soapAction="http://tempuri.org/UpdateFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompressTable">
+      <soap:operation soapAction="http://tempuri.org/CompressTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWanIP">
+      <soap:operation soapAction="http://tempuri.org/GetWanIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtainSessionID">
+      <soap:operation soapAction="http://tempuri.org/ObtainSessionID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSoundRating">
+      <soap:operation soapAction="http://tempuri.org/GetSoundRating" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSoundRating">
+      <soap:operation soapAction="http://tempuri.org/SendSoundRating" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPublicity">
+      <soap12:operation soapAction="http://tempuri.org/GetPublicity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendPublicity">
+      <soap12:operation soapAction="http://tempuri.org/SendPublicity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublicityList">
+      <soap12:operation soapAction="http://tempuri.org/GetPublicityList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing">
+      <soap12:operation soapAction="http://tempuri.org/GetDrawing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawing_NEW">
+      <soap12:operation soapAction="http://tempuri.org/GetDrawing_NEW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategory">
+      <soap12:operation soapAction="http://tempuri.org/GetCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing">
+      <soap12:operation soapAction="http://tempuri.org/SendDrawing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDrawing_NEW">
+      <soap12:operation soapAction="http://tempuri.org/SendDrawing_NEW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList">
+      <soap12:operation soapAction="http://tempuri.org/GetDrawingList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrawingList_NEW">
+      <soap12:operation soapAction="http://tempuri.org/GetDrawingList_NEW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select">
+      <soap12:operation soapAction="http://tempuri.org/Select" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <soap12:operation soapAction="http://tempuri.org/Execute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap12:operation soapAction="http://tempuri.org/GetVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFiles">
+      <soap12:operation soapAction="http://tempuri.org/UpdateFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompressTable">
+      <soap12:operation soapAction="http://tempuri.org/CompressTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWanIP">
+      <soap12:operation soapAction="http://tempuri.org/GetWanIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtainSessionID">
+      <soap12:operation soapAction="http://tempuri.org/ObtainSessionID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSoundRating">
+      <soap12:operation soapAction="http://tempuri.org/GetSoundRating" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSoundRating">
+      <soap12:operation soapAction="http://tempuri.org/SendSoundRating" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://192.168.200.1/RefplusWebtools/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://192.168.200.1/RefplusWebtools/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

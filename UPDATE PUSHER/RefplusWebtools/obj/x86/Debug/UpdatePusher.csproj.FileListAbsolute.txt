@@ -1,0 +1,17 @@
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.Properties.Resources.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.csproj.GenerateResource.Cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\UpdatePusher.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\UpdatePusher.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\UpdatePusher.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.FrmUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.FrmInfo.resources
+C:\Users\pvoutsinas\Webtools\UPDATE PUSHER\RefplusWebtools\bin\x86\Debug\UpdatePusher.exe.config
+C:\Users\pvoutsinas\Webtools\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.csproj.ResolveComReference.cache
+C:\Users\pvoutsinas\Webtools\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.exe
+C:\Users\pvoutsinas\Webtools\UPDATE PUSHER\RefplusWebtools\obj\x86\Debug\UpdatePusher.pdb

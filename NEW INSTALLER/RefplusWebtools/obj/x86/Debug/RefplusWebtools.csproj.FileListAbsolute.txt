@@ -1,0 +1,437 @@
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe.config
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.exe
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCoilReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLPricingReports.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csprojResolveAssemblyReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.AdvancedSearch.frmAdvancedSearch.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Balancing.frmCompressorCondenserCoilBalancing.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactGroupManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmSpecialGroupPermission.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmUserInformations.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserPricingReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOptionLogic.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanelLogic.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelOptionManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelPanelManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorDrawingManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerPricingReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmGenericDrawingManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserParts.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanGuardUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorMountUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitWaterCooledCondenser.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitReceiver.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressor.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressorImportExport.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDefrostHeater.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingFileManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmDrawingManagerCondesingUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingUpload.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicity.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityUpload.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilMaterialInformation.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelAndOptionPriceIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilBlygoldPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorBlygoldPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitOptionsPriceIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelPanelAndOptionPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorOptionsPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFluidCoolerPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondenserPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmConfirmPriceChange.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEditPrice.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmHeresiteSafety.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorMount.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanGuard.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilHeaderInformation.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCasingMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmElectroFinAdjustement.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilBlygold.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilHeader.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFinMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilSettings.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingElectroFinRate.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMadocRate.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMiscSettings.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingReturnBendCost.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmTubeMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FluidCoolerCondenserOptions.frmFluidCoolerCondenserOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactInformations.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmChangePassword.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmClipboard.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmCustomReportLogo.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmLogin.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmMain.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmSavingOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmThreadProcess.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.OEMCoil.frmOEMCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmCoilCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmOtherFluid.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmCircuitEdit.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmCondensingUnitOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmSaveTemplate.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickGravityCoil.frmGravityCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Properties.Resources.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmQuickCondenser.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmQuickCondensingUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickControlPanel.frmQuickControlPanel.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmQuickCustomUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmQuickEvaporator.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickFluidCooler.frmQuickFluidCooler.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickHeatPipe.frmQuickHeatPipe.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmQuickWaterEvaporator.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddCUOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAdditionalItems.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmOpenQuote.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotePrintOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotes.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Report.EngineeringReport.frmEngineeringReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.GenerateResource.Cache
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmOptionPack.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmUpdates.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.ResolveComReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FrmBugReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmQuantity.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmName.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelSelector.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmQuickCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelList.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddEvapOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmTag.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe.config
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.ResolveComReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.exe
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csprojResolveAssemblyReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.AdvancedSearch.frmAdvancedSearch.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Balancing.frmCompressorCondenserCoilBalancing.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactGroupManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmSpecialGroupPermission.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmUserInformations.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserPricingReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOptionLogic.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanelLogic.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelOptionManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelPanelManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorDrawingManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerPricingReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelList.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmGenericDrawingManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserParts.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanGuardUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorMountUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorUpdater.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitWaterCooledCondenser.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitReceiver.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressor.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressorImportExport.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDefrostHeater.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingFileManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmDrawingManagerCondesingUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingUpload.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelSelector.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmName.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmOptionPack.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicity.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityManager.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityUpload.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmQuantity.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilMaterialInformation.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelAndOptionPriceIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilBlygoldPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorBlygoldPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitOptionsPriceIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelPanelAndOptionPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorOptionsPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFluidCoolerPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondenserPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmConfirmPriceChange.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEditPrice.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorPricingIncrease.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmHeresiteSafety.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorMount.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanGuard.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanModel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilHeaderInformation.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCasingMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmElectroFinAdjustement.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilBlygold.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilHeader.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFinMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilSettings.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingElectroFinRate.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMadocRate.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMiscSettings.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingReturnBendCost.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmTubeMaterialDensityPrices.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FluidCoolerCondenserOptions.frmFluidCoolerCondenserOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactInformations.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FrmBugReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmChangePassword.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmClipboard.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmCustomReportLogo.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmLogin.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmMain.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmSavingOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmThreadProcess.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmUpdates.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.OEMCoil.frmOEMCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmCoilCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmOtherFluid.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmCircuitEdit.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmCondensingUnitOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmSaveTemplate.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickGravityCoil.frmGravityCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Properties.Resources.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmQuickCoil.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmQuickCondenser.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmQuickCondensingUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickControlPanel.frmQuickControlPanel.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmQuickCustomUnit.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmQuickEvaporator.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickFluidCooler.frmQuickFluidCooler.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickHeatPipe.frmQuickHeatPipe.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmQuickWaterEvaporator.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorCoating.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddEvapOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddCUOption.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAdditionalItems.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmOpenQuote.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotePrintOptions.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotes.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmTag.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Report.EngineeringReport.frmEngineeringReport.resources
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.GenerateResource.Cache
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2)\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2) - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe.config
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2) - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.ResolveComReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2) - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.exe
+U:\Patrice\REFPLUS_WEBTOOLS - Copie (2) - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\RefplusWebtools.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCondenserReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCondensingUnit.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCustomUnit.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLGravityCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLOEMCoil.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\bin\x86\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.AdvancedSearch.frmAdvancedSearch.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Balancing.frmCompressorCondenserCoilBalancing.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactGroupManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmSpecialGroupPermission.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmUserInformations.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserPricingReport.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditOptionLogic.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanelLogic.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmAddEditPanel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelOptionManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.ControlPanel.frmControlPanelPanelManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorDrawingManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.FluidCooler.frmFluidCoolerPricingReport.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelList.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmGenericDrawingManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Condenser.frmCondenserParts.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanGuardUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitFanUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorMountUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitMotorUpdater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitOptions.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitWaterCooledCondenser.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitModel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmCondensingUnitReceiver.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorModel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Evaporator.frmEvaporatorOptions.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressor.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmCompressorImportExport.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDefrostHeater.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingFileManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.CondensingUnit.frmDrawingManagerCondesingUnit.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmDrawingUpload.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmModelSelector.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmName.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmOptionPack.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicity.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityManager.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmPublicityUpload.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmQuantity.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilMaterialInformation.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelAndOptionPriceIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilBlygoldPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorBlygoldPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitOptionsPriceIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondensingUnitPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmControlPanelPanelAndOptionPrices.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorOptionsPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmGravityCoilPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFluidCoolerPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCondenserPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmConfirmPriceChange.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEditPrice.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmEvaporatorPricingIncrease.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmHeresiteSafety.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorModel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmMotorMount.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanGuard.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Generic.frmFanModel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.OEMCoil.frmOEMCoilHeaderInformation.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmCasingMaterialDensityPrices.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmElectroFinAdjustement.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilBlygold.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilHeader.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmFinMaterialDensityPrices.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingCoilSettings.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingElectroFinRate.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMadocRate.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingMiscSettings.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmPricingReturnBendCost.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.DataManager.Pricing.frmTubeMaterialDensityPrices.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FluidCoolerCondenserOptions.frmFluidCoolerCondenserOptions.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Contact.frmContactInformations.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FrmBugReport.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmChangePassword.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmClipboard.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmCustomReportLogo.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmLogin.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmMain.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmSavingOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmThreadProcess.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.frmUpdates.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.OEMCoil.frmOEMCoil.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmCoilCoating.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmOtherFluid.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmCircuitEdit.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmCondensingUnitOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmSaveTemplate.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorCoating.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmEvaporatorOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickGravityCoil.frmGravityCoil.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Properties.Resources.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCoil.frmQuickCoil.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondenser.frmQuickCondenser.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCondensingUnit.frmQuickCondensingUnit.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickControlPanel.frmQuickControlPanel.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickCustomUnit.frmQuickCustomUnit.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickEvaporator.frmQuickEvaporator.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickFluidCooler.frmQuickFluidCooler.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickHeatPipe.frmQuickHeatPipe.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmQuickWaterEvaporator.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorCoating.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.QuickWaterEvaporator.frmWaterEvaporatorOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddEvapOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAddCUOption.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmAdditionalItems.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmOpenQuote.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotePrintOptions.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmQuotes.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Quotes.frmTag.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.Report.EngineeringReport.frmEngineeringReport.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.GenerateResource.Cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\RefplusWebtools\obj\x86\Debug\RefplusWebtools.FrmLeadTime.resources
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\bin\x86\Debug\RefplusWebtools.exe.config
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.csproj.ResolveComReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.exe
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD - Copie\RefplusWebtools\obj\x86\Debug\RefplusWebtools.pdb

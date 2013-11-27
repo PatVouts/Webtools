@@ -1,0 +1,608 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Quick Fluid Cooler</title>
+	</head>
+	<body>
+	<img src="Pictures/QuickFluidCooler/FluidCoolerForm.JPG" width=700 height=600 />
+        <table width=600 border=1>
+            <tr>
+                <td align=center>
+                <b>Fields</b>
+                </td>
+                <td align=center style="width: 270px">
+                <b>Choices (if applicable)</b>
+                </td>
+                <td align=center>
+                <b>Description</b>
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Tag
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Unique description for the unit.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Quantity
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Number of units.
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=2>
+                Filter
+                </td>
+                <td align=center style="width: 270px">
+                Selection
+                </td>
+                <td align=center>
+                Unit selection is done based on user input.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                Rating
+                </td>
+                <td align=center>
+                User selects a unit manually from a list of models.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Model
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                List of fluid cooler models.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Location
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                List of locations.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Entering Dry Bulb(°F)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                The ordinary thermodynamic temperature of the air, what you would measure with a regular thermometer.
+                [source:http://wiki.answers.com/Q/What_is_dry_bulb_temperature]
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Altitude(ft)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                The elevation above sea level.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Entering Liquid Temperature(°F)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=4>
+                Fluid Type
+                </td>
+                <td align=center style="width: 270px">
+                Water
+                </td>
+                <td align=center>
+                Water.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                Ethylene Glycol
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                Propylene Glycol
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                Other
+                </td>
+                <td align=center>
+                Custom fluid.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Concentration (%)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Type Name
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                If "Other" was chose as a fluid type, a new fluid name can be entered here.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Specific Heat (BTU/lb/°F)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Density (lb/cu.ft)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Viscosity (Centipoise)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Thermal Conductivity (BTU/H/sq.ft)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=4>
+                Voltage
+                </td>
+                <td align=center style="width: 270px">
+                208-240/1/60
+                </td>
+                <td align=center rowspan=4>
+                This option represents the electrical information of the unit. Basically formed of 3 sections which are : Voltage / Number of phase / Frequency in Hertz.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                208-240/3/60
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                600/3/60
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                480/3/60
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Max Fluid Pressure (PSI)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=11>
+                Unit Type
+                </td>
+                <td align=center style="width: 270px">
+                STANDARD PRODUCT LINE
+                </td>
+                <td align=center rowspan=11>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                LD - 1HP - 850 RPM
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                LV - 1HP - 850 RPM - V Shape
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                ND - 2HP - 1140RPM
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                NV - 2HP - 1140RPM - V Shape
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                VD - 0.95/1.4kW - 2 SPEED - 550/780RPM
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                VV - 0.95/1.4kW - 2 SPEED - 550/780RPM - V Shape
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                CD - 1/4HP - 825RPM
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                MD - 1/2HP - 1140 RPM
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                VD - 0.95kW - 550RPM @ LOW SPEED
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                VV - 0.95kW - 550RPM @ LOW SPEED - V Shape
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=16>
+                Fan Arrangement
+                </td>
+                <td align=center style="width: 270px">
+                ALL
+                </td>
+                <td align=center rowspan=16>
+                Arrangement of the fans on the unit.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 1
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 2
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 3
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 4
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 5
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 6
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 7
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                1 X 8
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 2
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 3
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 4
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 5
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 6
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 7
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                2 X 8
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Leaving Liquid Temperature
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                USGPM
+                </td>
+                <td align=center style="width: 270px" rowspan=2>
+                N/A
+                </td>
+                <td align=center rowspan=2>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                MBH
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=2>
+                Air Flow Type
+                </td>
+                <td align=center style="width: 270px">
+                HORIZONTAL
+                </td>
+                <td align=center>
+                Horizontal air flow.
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                VERTICAL
+                </td>
+                <td align=center>
+                Vertical air flow.
+                </td>
+            </tr>
+            <tr>
+                <td align=center rowspan=8>
+                Fins per Inch
+                </td>
+                <td align=center style="width: 270px">
+                STANDARD FINS
+                </td>
+                <td align=center rowspan=8>
+                The number of fin strips counted in an inch when the inch measurement is in the tube length direction. <br />
+                [source:http://www.srcoils.com/glossary/]
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                6
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                8
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                9
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                10
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                11
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                12
+                </td>
+            </tr>
+            <tr>
+                <td align=center style="width: 270px">
+                14
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                <img src="Pictures/QuickFluidCooler/FluidCoolerRunSelection.JPG" style="width: 423px" />
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Selects a unit either based on user input or manually selected.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - Model
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Model number of the fluid cooler.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - LLT
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Leaving Liquid Temperature.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - LAT
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Leaving Air Temperature.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - GPM
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - Total Heat (MBH)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - Pressure Drop (psi)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                Fluid Cooler List - Velocity (ft/sec)
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Contact Refplus.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                <img src="Pictures/QuickFluidCooler/FluidCoolerAccept.JPG" />
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Opens the <a href="QuickControlPanel.htm">Quick Control Panel</a> form for additional options.
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                <img src="Pictures/QuickFluidCooler/FluidCoolerCancel.JPG" />
+                </td>
+                <td align=center style="width: 270px">
+                N/A
+                </td>
+                <td align=center>
+                Closes the form.
+                </td>
+            </tr>
+        </table>
+	
+	</body>
+</html>

@@ -1,0 +1,23 @@
+Trying to add new property 'svn:ignore' with value 'RefplusWebtools.exe
+RefplusWebtools.pdb
+',
+but property already exists with value 'DLLCoilReport.pdb
+DLLCondenserReport.pdb
+DLLFluidCoolerReport.pdb
+DLLHeatPipeReport.pdb
+DLLPricingReports.pdb
+Interop.KFRefplus.dll
+Interop.KFRefplus.dll.r14
+Interop.Pipes.dll
+Interop.Pipes.dll.r14
+Interop.Pipes.dll.r43
+RefplusWebtools.exe
+RefplusWebtools.exe.config
+RefplusWebtools.exe.r14
+RefplusWebtools.exe.r43
+RefplusWebtools.pdb
+RefplusWebtools.pdb.r14
+RefplusWebtools.pdb.r43
+RefplusWebtools.vshost.exe
+RefplusWebtools.vshost.exe.config
+'.

@@ -1,0 +1,38 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UniqueID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="PowerSupply">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PowerFactorAdjustement" type="xs:double" />
+                <xs:element name="Active" type="xs:int" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <UniqueID>1</UniqueID>
+    <PowerSupply>50Hz</PowerSupply>
+    <PowerFactorAdjustement>0.83333333333333</PowerFactorAdjustement>
+    <Active>1</Active>
+  </Table>
+  <Table>
+    <UniqueID>2</UniqueID>
+    <PowerSupply>60Hz</PowerSupply>
+    <PowerFactorAdjustement>1</PowerFactorAdjustement>
+    <Active>1</Active>
+  </Table>
+</NewDataSet>

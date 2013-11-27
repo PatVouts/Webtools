@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="CondensingUnitCompressorsDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="CondensingUnitCompressorsDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CondensingUnitCompressorReceiver">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemID" type="xs:int" minOccurs="0" />
+              <xs:element name="Username" type="xs:string" minOccurs="0" />
+              <xs:element name="CompressorNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="CompressorModel" type="xs:string" minOccurs="0" />
+              <xs:element name="VoltageID" type="xs:int" minOccurs="0" />
+              <xs:element name="RefrigerantID" type="xs:int" minOccurs="0" />
+              <xs:element name="RLA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LRA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SinglePhaseTandem" type="xs:int" minOccurs="0" />
+              <xs:element name="Liquid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Suction" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Discharge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LiquidText" type="xs:string" minOccurs="0" />
+              <xs:element name="SuctionText" type="xs:string" minOccurs="0" />
+              <xs:element name="DischargeText" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiverModel" type="xs:string" minOccurs="0" />
+              <xs:element name="CoilCapacityRatio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReceiverPumpDownCapacity" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

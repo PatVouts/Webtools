@@ -1,0 +1,12 @@
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\bin\Debug\DLLGravityCoilReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\bin\Debug\DLLGravityCoilReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.QuickGravityCoilSpec.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\bin\Debug\DLLGravityCoilReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\bin\Debug\DLLGravityCoilReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.QuickGravityCoilSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLGravityCoilReport\obj\Debug\DLLGravityCoilReport.pdb

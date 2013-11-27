@@ -1,0 +1,8 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondenserReport\bin\Debug\DLLCondenserReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondenserReport\bin\Debug\DLLCondenserReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondenserReport\obj\Debug\DLLCondenserReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondenserReport\obj\Debug\DLLCondenserReport.pdb

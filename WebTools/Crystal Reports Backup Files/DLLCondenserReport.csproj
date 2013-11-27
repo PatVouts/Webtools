@@ -1,0 +1,190 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CAA61D7-D2BF-497F-99B7-0049DC81FEED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DLLCondenserReport</RootNamespace>
+    <AssemblyName>DLLCondenserReport</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CondenserXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanelReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlPanelReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlPanelXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickCondenserDataReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuickCondenserDataReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReceiverReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiverReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReceiverXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RefrigerantCircuit.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RefrigerantCircuit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RefrigerantCircuitXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RefrigerantCircuitXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SecondaryOptions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecondaryOptions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SecondaryOptionsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlPanelReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ControlPanelReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondenserDataReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QuickCondenserDataReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiverReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReceiverReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RefrigerantCircuit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RefrigerantCircuit.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondaryOptions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SecondaryOptions.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CondenserXSD.xsc">
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondenserXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondenserXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondenserXSD.xss">
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ControlPanelXSD.xsc">
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ControlPanelXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ControlPanelXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ControlPanelXSD.xss">
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiverXSD.xsc">
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiverXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiverXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReceiverXSD.xss">
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="RefrigerantCircuitXSD.xsc">
+      <DependentUpon>RefrigerantCircuitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="RefrigerantCircuitXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RefrigerantCircuitXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RefrigerantCircuitXSD.xss">
+      <DependentUpon>RefrigerantCircuitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="SecondaryOptionsXSD.xsc">
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="SecondaryOptionsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SecondaryOptionsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecondaryOptionsXSD.xss">
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

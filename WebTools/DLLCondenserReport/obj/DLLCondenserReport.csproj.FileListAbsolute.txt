@@ -1,0 +1,32 @@
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\bin\Debug\DLLCondenserReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\bin\Debug\DLLCondenserReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.ControlPanelReport.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.SecondaryOptions.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.ReceiverReport.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.QuickCondenserDataReport.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCondenserReport\obj\Debug\DLLCondenserReport.RefrigerantCircuit.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.ControlPanelReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.QuickCondenserDataReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.ReceiverReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.RefrigerantCircuit.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.SecondaryOptions.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.CondenserEngineeringReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\bin\Debug\DLLCondenserReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.ControlPanelReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.CondenserEngineeringReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.QuickCondenserDataReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.ReceiverReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.RefrigerantCircuit.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.SecondaryOptions.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCondenserReport\obj\Debug\DLLCondenserReport.pdb

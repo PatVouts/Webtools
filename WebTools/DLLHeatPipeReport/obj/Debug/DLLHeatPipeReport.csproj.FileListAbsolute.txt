@@ -1,0 +1,8 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.pdb

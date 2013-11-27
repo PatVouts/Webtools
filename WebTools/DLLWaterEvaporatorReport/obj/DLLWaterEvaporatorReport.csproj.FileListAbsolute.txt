@@ -1,0 +1,7 @@
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.QuickWaterEvapSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.EvaporatorOption.rpt

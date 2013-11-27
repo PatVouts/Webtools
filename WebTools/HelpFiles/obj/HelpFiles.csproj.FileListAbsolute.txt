@@ -1,0 +1,4 @@
+C:\SVNRepositories\REFPLUS_WEBTOOLS\HelpFiles\bin\Debug\HelpFiles.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\HelpFiles\bin\Debug\HelpFiles.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\HelpFiles\obj\Debug\HelpFiles.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\HelpFiles\obj\Debug\HelpFiles.pdb

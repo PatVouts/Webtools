@@ -1,0 +1,9 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLWaterEvaporatorReport\bin\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLWaterEvaporatorReport\obj\Debug\DLLWaterEvaporatorReport.csprojResolveAssemblyReference.cache

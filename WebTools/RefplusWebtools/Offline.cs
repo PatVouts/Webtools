@@ -1,0 +1,7 @@
+
+namespace RefplusWebtools
+{
+    class Offline
+    {
+    }
+}

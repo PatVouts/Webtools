@@ -1,0 +1,10 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.csprojResolveAssemblyReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCoilReport\bin\Debug\DLLCoilReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCoilReport\bin\Debug\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCoilReport\obj\Debug\DLLCoilReport.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCoilReport\obj\Debug\DLLCoilReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCoilReport\obj\Debug\DLLCoilReport.pdb

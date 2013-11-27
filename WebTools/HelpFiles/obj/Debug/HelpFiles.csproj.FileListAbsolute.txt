@@ -1,0 +1,4 @@
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\HelpFiles\bin\Debug\HelpFiles.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\HelpFiles\bin\Debug\HelpFiles.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\HelpFiles\obj\Debug\HelpFiles.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\HelpFiles\obj\Debug\HelpFiles.pdb

@@ -1,0 +1,5 @@
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\DLLCoilReport\bin\Release\DLLCoilReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\DLLCoilReport\bin\Release\DLLCoilReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\DLLCoilReport\obj\Release\DLLCoilReport.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\DLLCoilReport\obj\Release\DLLCoilReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\NON-RESHARPED, OEM OLD\DLLCoilReport\obj\Release\DLLCoilReport.pdb

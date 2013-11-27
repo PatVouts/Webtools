@@ -1,0 +1,118 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="CUCompressorReceiverDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="CUCompressorReceiverDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CUCompressorReceiver">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Model">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompressorNumber" type="xs:int" />
+              <xs:element name="CompressorModel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VoltageID" type="xs:int" />
+              <xs:element name="RefrigerantID" type="xs:int" />
+              <xs:element name="Liquid" type="xs:double" />
+              <xs:element name="Suction" type="xs:double" />
+              <xs:element name="Discharge" type="xs:double" />
+              <xs:element name="LiquidText">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SuctionText">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DischargeText">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReceiverModel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CoilCapacityRatio" type="xs:double" />
+              <xs:element name="Compressor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RefrigerantID1" type="xs:int" minOccurs="0" />
+              <xs:element name="VoltageID1" type="xs:int" minOccurs="0" />
+              <xs:element name="Manufacturer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RLA" type="xs:double" minOccurs="0" />
+              <xs:element name="LRA" type="xs:double" minOccurs="0" />
+              <xs:element name="SinglePhaseTandem" type="xs:int" minOccurs="0" />
+              <xs:element name="Capacity1" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity2" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity3" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity4" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity5" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity6" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity7" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity8" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity9" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity10" type="xs:double" minOccurs="0" />
+              <xs:element name="Power1" type="xs:double" minOccurs="0" />
+              <xs:element name="Power2" type="xs:double" minOccurs="0" />
+              <xs:element name="Power3" type="xs:double" minOccurs="0" />
+              <xs:element name="Power4" type="xs:double" minOccurs="0" />
+              <xs:element name="Power5" type="xs:double" minOccurs="0" />
+              <xs:element name="Power6" type="xs:double" minOccurs="0" />
+              <xs:element name="Power7" type="xs:double" minOccurs="0" />
+              <xs:element name="Power8" type="xs:double" minOccurs="0" />
+              <xs:element name="Power9" type="xs:double" minOccurs="0" />
+              <xs:element name="Power10" type="xs:double" minOccurs="0" />
+              <xs:element name="ReceiverModel1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PumpDownCapacity" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

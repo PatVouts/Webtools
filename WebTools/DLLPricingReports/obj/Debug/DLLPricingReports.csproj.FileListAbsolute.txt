@@ -1,0 +1,10 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.csprojResolveAssemblyReference.cache
+U:\Patrice\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLPricingReports\obj\Debug\DLLPricingReports.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLPricingReports\obj\Debug\DLLPricingReports.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLPricingReports\bin\Debug\DLLPricingReports.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLPricingReports\bin\Debug\DLLPricingReports.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLPricingReports\obj\Debug\DLLPricingReports.pdb

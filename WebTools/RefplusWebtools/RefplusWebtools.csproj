@@ -1,0 +1,1641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C37D740-808E-4F64-8443-770EA2891FF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RefplusWebtools</RootNamespace>
+    <AssemblyName>RefplusWebtools</AssemblyName>
+    <ApplicationIcon>Refplus 2.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChillWaterCoil, Version=1.1.5046.27981, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\ChillWaterCoil.dll</HintPath>
+    </Reference>
+    <Reference Include="Compressors, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CondenserCoil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DLLCoilReport, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\DLLCoilReport.dll</HintPath>
+    </Reference>
+    <Reference Include="DLLPricingReports, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\DLLPricingReports.dll</HintPath>
+    </Reference>
+    <Reference Include="DXCoil, Version=1.1.5046.20394, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\DXCoil.dll</HintPath>
+    </Reference>
+    <Reference Include="GCCoil, Version=1.1.4952.19630, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\GCCoil.dll</HintPath>
+    </Reference>
+    <Reference Include="GlacialList, Version=1.0.3840.13484, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="HotWaterCoil, Version=1.1.5046.24292, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\HotWaterCoil.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Pipes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\x86\Debug\Interop.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca" />
+    <Reference Include="SteamCoil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedSearch\Filter.cs" />
+    <Compile Include="AdvancedSearch\FilterData.cs" />
+    <Compile Include="AdvancedSearch\frmAdvancedSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedSearch\frmAdvancedSearch.Designer.cs">
+      <DependentUpon>frmAdvancedSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balancing.cs" />
+    <Compile Include="Balancing\CompressorBalancing.cs" />
+    <Compile Include="Balancing\CompressorCondenserCoil.cs" />
+    <Compile Include="Balancing\frmCompressorCondenserCoilBalancing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balancing\frmCompressorCondenserCoilBalancing.Designer.cs">
+      <DependentUpon>frmCompressorCondenserCoilBalancing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coil\CoolingCoil.cs" />
+    <Compile Include="Compressor.cs" />
+    <Compile Include="ComputerInformations.cs" />
+    <Compile Include="Contact\frmContactGroupManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\frmContactGroupManager.Designer.cs">
+      <DependentUpon>frmContactGroupManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\frmContactManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\frmContactManager.Designer.cs">
+      <DependentUpon>frmContactManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\frmSpecialGroupPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\frmSpecialGroupPermission.Designer.cs">
+      <DependentUpon>frmSpecialGroupPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact\frmUserInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\frmUserInformations.Designer.cs">
+      <DependentUpon>frmUserInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmBacklog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmBacklog.Designer.cs">
+      <DependentUpon>FrmBacklog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmBalancingInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmBalancingInfo.Designer.cs">
+      <DependentUpon>FrmBalancingInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmCosting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmCosting.Designer.cs">
+      <DependentUpon>FrmCosting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\frmEditChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\frmEditChoice.Designer.cs">
+      <DependentUpon>frmEditChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmLogic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmLogic.Designer.cs">
+      <DependentUpon>FrmLogic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\frmRatio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\frmRatio.Designer.cs">
+      <DependentUpon>frmRatio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Costing\FrmWeight.Designer.cs">
+      <DependentUpon>FrmWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\FrmOneCompressor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\FrmOneCompressor.Designer.cs">
+      <DependentUpon>FrmOneCompressor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmMultiUpdateControlPanelOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmMultiUpdateControlPanelOptions.Designer.cs">
+      <DependentUpon>frmMultiUpdateControlPanelOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\FrmReportUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\FrmReportUpload.Designer.cs">
+      <DependentUpon>FrmReportUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeadTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeadTime.Designer.cs">
+      <DependentUpon>FrmLeadTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CryptoXML.cs" />
+    <Compile Include="CustomRegionalSettings.cs" />
+    <Compile Include="DataEncryption.cs" />
+    <Compile Include="DataManager\Condenser\frmCondenserPricingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Condenser\frmCondenserPricingReport.Designer.cs">
+      <DependentUpon>frmCondenserPricingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditOption.Designer.cs">
+      <DependentUpon>frmAddEditOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditOptionLogic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditOptionLogic.Designer.cs">
+      <DependentUpon>frmAddEditOptionLogic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditPanelLogic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditPanelLogic.Designer.cs">
+      <DependentUpon>frmAddEditPanelLogic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmAddEditPanel.Designer.cs">
+      <DependentUpon>frmAddEditPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmControlPanelOptionManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmControlPanelOptionManager.Designer.cs">
+      <DependentUpon>frmControlPanelOptionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmControlPanelPanelManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\ControlPanel\frmControlPanelPanelManager.Designer.cs">
+      <DependentUpon>frmControlPanelPanelManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Evaporator\frmEvaporatorDrawingManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Evaporator\frmEvaporatorDrawingManager.Designer.cs">
+      <DependentUpon>frmEvaporatorDrawingManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\FluidCooler\frmFluidCoolerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\FluidCooler\frmFluidCoolerManager.Designer.cs">
+      <DependentUpon>frmFluidCoolerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\FluidCooler\frmFluidCoolerPricingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\FluidCooler\frmFluidCoolerPricingReport.Designer.cs">
+      <DependentUpon>frmFluidCoolerPricingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmModelList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmModelList.Designer.cs">
+      <DependentUpon>frmModelList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmModelSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmModelSelector.Designer.cs">
+      <DependentUpon>frmModelSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmName.Designer.cs">
+      <DependentUpon>frmName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmOptionPack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmOptionPack.Designer.cs">
+      <DependentUpon>frmOptionPack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmGenericDrawingManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmGenericDrawingManager.Designer.cs">
+      <DependentUpon>frmGenericDrawingManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Condenser\frmCondenserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Condenser\frmCondenserManager.Designer.cs">
+      <DependentUpon>frmCondenserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Condenser\frmCondenserParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Condenser\frmCondenserParts.Designer.cs">
+      <DependentUpon>frmCondenserParts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitFanGuardUpdater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitFanGuardUpdater.Designer.cs">
+      <DependentUpon>frmCondensingUnitFanGuardUpdater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitFanUpdater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitFanUpdater.Designer.cs">
+      <DependentUpon>frmCondensingUnitFanUpdater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitMotorMountUpdater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitMotorMountUpdater.Designer.cs">
+      <DependentUpon>frmCondensingUnitMotorMountUpdater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitMotorUpdater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitMotorUpdater.Designer.cs">
+      <DependentUpon>frmCondensingUnitMotorUpdater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitOptions.Designer.cs">
+      <DependentUpon>frmCondensingUnitOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitWaterCooled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitWaterCooled.Designer.cs">
+      <DependentUpon>frmCondensingUnitWaterCooled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitModel.Designer.cs">
+      <DependentUpon>frmCondensingUnitModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitReceiver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmCondensingUnitReceiver.Designer.cs">
+      <DependentUpon>frmCondensingUnitReceiver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\RefplusQuotesExcelDatabase.cs" />
+    <Compile Include="DataManager\Evaporator\frmEvaporatorModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Evaporator\frmEvaporatorModel.Designer.cs">
+      <DependentUpon>frmEvaporatorModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Evaporator\frmEvaporatorOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Evaporator\frmEvaporatorOptions.Designer.cs">
+      <DependentUpon>frmEvaporatorOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmCompressor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmCompressor.Designer.cs">
+      <DependentUpon>frmCompressor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmCompressorImportExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmCompressorImportExport.Designer.cs">
+      <DependentUpon>frmCompressorImportExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDefrostHeater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDefrostHeater.Designer.cs">
+      <DependentUpon>frmDefrostHeater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDrawingFileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDrawingFileManager.Designer.cs">
+      <DependentUpon>frmDrawingFileManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmDrawingManagerCondesingUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\CondensingUnit\frmDrawingManagerCondesingUnit.Designer.cs">
+      <DependentUpon>frmDrawingManagerCondesingUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDrawingUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmDrawingUpload.Designer.cs">
+      <DependentUpon>frmDrawingUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicity.Designer.cs">
+      <DependentUpon>frmPublicity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicityManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicityManager.Designer.cs">
+      <DependentUpon>frmPublicityManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicityUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmPublicityUpload.Designer.cs">
+      <DependentUpon>frmPublicityUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmQuantity.Designer.cs">
+      <DependentUpon>frmQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OEMCoil\frmOEMCoilMaterialInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\OEMCoil\frmOEMCoilMaterialInformation.Designer.cs">
+      <DependentUpon>frmOEMCoilMaterialInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmControlPanelAndOptionPriceIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmControlPanelAndOptionPriceIncrease.Designer.cs">
+      <DependentUpon>frmControlPanelAndOptionPriceIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmGravityCoilBlygoldPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmGravityCoilBlygoldPricingIncrease.Designer.cs">
+      <DependentUpon>frmGravityCoilBlygoldPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorBlygoldPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorBlygoldPricingIncrease.Designer.cs">
+      <DependentUpon>frmEvaporatorBlygoldPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondensingUnitOptionsPriceIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondensingUnitOptionsPriceIncrease.Designer.cs">
+      <DependentUpon>frmCondensingUnitOptionsPriceIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondensingUnitPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondensingUnitPricingIncrease.Designer.cs">
+      <DependentUpon>frmCondensingUnitPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmControlPanelPanelAndOptionPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmControlPanelPanelAndOptionPrices.Designer.cs">
+      <DependentUpon>frmControlPanelPanelAndOptionPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorOptionsPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorOptionsPricingIncrease.Designer.cs">
+      <DependentUpon>frmEvaporatorOptionsPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmGravityCoilPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmGravityCoilPricingIncrease.Designer.cs">
+      <DependentUpon>frmGravityCoilPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmFluidCoolerPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmFluidCoolerPricingIncrease.Designer.cs">
+      <DependentUpon>frmFluidCoolerPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondenserPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCondenserPricingIncrease.Designer.cs">
+      <DependentUpon>frmCondenserPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmConfirmPriceChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmConfirmPriceChange.Designer.cs">
+      <DependentUpon>frmConfirmPriceChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEditPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEditPrice.Designer.cs">
+      <DependentUpon>frmEditPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorPricingIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmEvaporatorPricingIncrease.Designer.cs">
+      <DependentUpon>frmEvaporatorPricingIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmHeresiteSafety.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmHeresiteSafety.Designer.cs">
+      <DependentUpon>frmHeresiteSafety.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmMotorModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmMotorModel.Designer.cs">
+      <DependentUpon>frmMotorModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmMotorMount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmMotorMount.Designer.cs">
+      <DependentUpon>frmMotorMount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmFanGuard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmFanGuard.Designer.cs">
+      <DependentUpon>frmFanGuard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmFanModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Generic\frmFanModel.Designer.cs">
+      <DependentUpon>frmFanModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OEMCoil\frmOEMCoilHeaderInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\OEMCoil\frmOEMCoilHeaderInformation.Designer.cs">
+      <DependentUpon>frmOEMCoilHeaderInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCasingMaterialDensityPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmCasingMaterialDensityPrices.Designer.cs">
+      <DependentUpon>frmCasingMaterialDensityPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmElectroFinAdjustement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmElectroFinAdjustement.Designer.cs">
+      <DependentUpon>frmElectroFinAdjustement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilBlygold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilBlygold.Designer.cs">
+      <DependentUpon>frmPricingCoilBlygold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilHeader.Designer.cs">
+      <DependentUpon>frmPricingCoilHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmFinMaterialDensityPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmFinMaterialDensityPrices.Designer.cs">
+      <DependentUpon>frmFinMaterialDensityPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingCoilSettings.Designer.cs">
+      <DependentUpon>frmPricingCoilSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingElectroFinRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingElectroFinRate.Designer.cs">
+      <DependentUpon>frmPricingElectroFinRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingMadocRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingMadocRate.Designer.cs">
+      <DependentUpon>frmPricingMadocRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingMiscSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingMiscSettings.Designer.cs">
+      <DependentUpon>frmPricingMiscSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingReturnBendCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmPricingReturnBendCost.Designer.cs">
+      <DependentUpon>frmPricingReturnBendCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmTubeMaterialDensityPrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManager\Pricing\frmTubeMaterialDensityPrices.Designer.cs">
+      <DependentUpon>frmTubeMaterialDensityPrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingManager.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="FingerPrint.cs" />
+    <Compile Include="FingerPrintHandler.cs" />
+    <Compile Include="FluidCoolerCondenserOptions\frmFluidCoolerCondenserOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FluidCoolerCondenserOptions\frmFluidCoolerCondenserOptions.Designer.cs">
+      <DependentUpon>frmFluidCoolerCondenserOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxControl.cs" />
+    <Compile Include="Compression.cs" />
+    <Compile Include="Contact\frmContactInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact\frmContactInformations.Designer.cs">
+      <DependentUpon>frmContactInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encryption.cs" />
+    <Compile Include="FluidCoolerCondenserOptions\LegCode.cs" />
+    <Compile Include="FocusApplication.cs" />
+    <Compile Include="FolderManager.cs" />
+    <Compile Include="FrmBugReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBugReport.Designer.cs">
+      <DependentUpon>FrmBugReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClipboard.Designer.cs">
+      <DependentUpon>frmClipboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomReportLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomReportLogo.Designer.cs">
+      <DependentUpon>frmCustomReportLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSavingOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSavingOption.Designer.cs">
+      <DependentUpon>frmSavingOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThreadProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThreadProcess.designer.cs">
+      <DependentUpon>frmThreadProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdates.Designer.cs">
+      <DependentUpon>frmUpdates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlacialListHandler.cs" />
+    <Compile Include="HelpFiles.cs" />
+    <Compile Include="InternalClipboard.cs" />
+    <Compile Include="OEMCoil\frmOEMCoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OEMCoil\frmOEMCoil.Designer.cs">
+      <DependentUpon>frmOEMCoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OEMCoil\OEMCode.cs" />
+    <Compile Include="OEMCoil\OEMCoilFormat.cs" />
+    <Compile Include="OEMCoil\OEMReport.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCoil\GasCooler.cs" />
+    <Compile Include="QuickCondenser\CondenserReceiverCharge.cs" />
+    <Compile Include="QuickCondenser\CondenserReport.cs" />
+    <Compile Include="QuickCondenser\frmCircuitEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCondenser\frmCircuitEdit.Designer.cs">
+      <DependentUpon>frmCircuitEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCondenser\frmQuickCondenser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCondenser\frmQuickCondenser.Designer.cs">
+      <DependentUpon>frmQuickCondenser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCondenser\QuickCondenserCode.cs" />
+    <Compile Include="Quintuple.cs" />
+    <Compile Include="Pricing\OEMCoilPricing.cs" />
+    <Compile Include="Pricing\SteamCoil.cs" />
+    <Compile Include="PublicityManager.cs" />
+    <Compile Include="QuickCoil\CoilInternalVolume.cs" />
+    <Compile Include="QuickCoil\frmCoilCoating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCoil\frmCoilCoating.Designer.cs">
+      <DependentUpon>frmCoilCoating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCoil\frmOtherFluid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCoil\frmOtherFluid.Designer.cs">
+      <DependentUpon>frmOtherFluid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCondensingUnit\CondensingUnitReport.cs" />
+    <Compile Include="QuickCondensingUnit\frmCondensingUnitOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCondensingUnit\frmCondensingUnitOption.Designer.cs">
+      <DependentUpon>frmCondensingUnitOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCustomUnit\CustomUnitReport.cs" />
+    <Compile Include="QuickCustomUnit\frmSaveTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCustomUnit\frmSaveTemplate.Designer.cs">
+      <DependentUpon>frmSaveTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickEvaporator\frmEvaporatorCoating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickEvaporator\frmEvaporatorCoating.Designer.cs">
+      <DependentUpon>frmEvaporatorCoating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickEvaporator\frmEvaporatorOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickEvaporator\frmEvaporatorOption.Designer.cs">
+      <DependentUpon>frmEvaporatorOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickGravityCoil\frmGravityCoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickGravityCoil\frmGravityCoil.Designer.cs">
+      <DependentUpon>frmGravityCoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickGravityCoil\GravityCoilReport.cs" />
+    <Compile Include="LoadingCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoadingCircle.designer.cs">
+      <DependentUpon>LoadingCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Offline.cs" />
+    <Compile Include="Online.cs" />
+    <Compile Include="PDF_Class.cs" />
+    <Compile Include="Pricing\CasingFinishPricing.cs" />
+    <Compile Include="Pricing\Coating.cs" />
+    <Compile Include="Pricing\ControlPanelPricing.cs" />
+    <Compile Include="Pricing\BoosterCoil.cs" />
+    <Compile Include="Pricing\EvaporatorPricing.cs" />
+    <Compile Include="Pricing\FC_OACC_Options_Pricing.cs" />
+    <Compile Include="Pricing\StandardCoil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdvancedSearch\frmAdvancedSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdvancedSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balancing\frmCompressorCondenserCoilBalancing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCompressorCondenserCoilBalancing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\frmContactGroupManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmContactGroupManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\frmContactManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmContactManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\frmSpecialGroupPermission.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSpecialGroupPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\frmUserInformations.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUserInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\FrmBacklog.resx">
+      <DependentUpon>FrmBacklog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\FrmBalancingInfo.resx">
+      <DependentUpon>FrmBalancingInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\FrmCosting.resx">
+      <DependentUpon>FrmCosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\frmEditChoice.resx">
+      <DependentUpon>frmEditChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\FrmLogic.resx">
+      <DependentUpon>FrmLogic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\frmRatio.resx">
+      <DependentUpon>frmRatio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Costing\FrmWeight.resx">
+      <DependentUpon>FrmWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\FrmOneCompressor.resx">
+      <DependentUpon>FrmOneCompressor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmMultiUpdateControlPanelOptions.resx">
+      <DependentUpon>frmMultiUpdateControlPanelOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\FrmReportUpload.resx">
+      <DependentUpon>FrmReportUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeadTime.resx">
+      <DependentUpon>FrmLeadTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Condenser\frmCondenserPricingReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondenserPricingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmAddEditOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddEditOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmAddEditOptionLogic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddEditOptionLogic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmAddEditPanelLogic.resx">
+      <DependentUpon>frmAddEditPanelLogic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmAddEditPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddEditPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmControlPanelOptionManager.resx">
+      <DependentUpon>frmControlPanelOptionManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\ControlPanel\frmControlPanelPanelManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmControlPanelPanelManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Evaporator\frmEvaporatorDrawingManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorDrawingManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\FluidCooler\frmFluidCoolerManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFluidCoolerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\FluidCooler\frmFluidCoolerPricingReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFluidCoolerPricingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmModelList.resx">
+      <DependentUpon>frmModelList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmGenericDrawingManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGenericDrawingManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Condenser\frmCondenserManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondenserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Condenser\frmCondenserParts.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondenserParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitFanGuardUpdater.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitFanGuardUpdater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitFanUpdater.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitFanUpdater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitMotorMountUpdater.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitMotorMountUpdater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitMotorUpdater.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitMotorUpdater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitWaterCooled.resx">
+      <DependentUpon>frmCondensingUnitWaterCooled.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitModel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmCondensingUnitReceiver.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitReceiver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Evaporator\frmEvaporatorModel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Evaporator\frmEvaporatorOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmCompressor.resx">
+      <DependentUpon>frmCompressor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmCompressorImportExport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCompressorImportExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmDefrostHeater.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDefrostHeater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmDrawingFileManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDrawingFileManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CondensingUnit\frmDrawingManagerCondesingUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDrawingManagerCondesingUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmDrawingUpload.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDrawingUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmModelSelector.resx">
+      <DependentUpon>frmModelSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmName.resx">
+      <DependentUpon>frmName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmOptionPack.resx">
+      <DependentUpon>frmOptionPack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmPublicity.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPublicity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmPublicityManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPublicityManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmPublicityUpload.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPublicityUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmQuantity.resx">
+      <DependentUpon>frmQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\OEMCoil\frmOEMCoilMaterialInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOEMCoilMaterialInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmControlPanelAndOptionPriceIncrease.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmControlPanelAndOptionPriceIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmGravityCoilBlygoldPricingIncrease.resx">
+      <DependentUpon>frmGravityCoilBlygoldPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmEvaporatorBlygoldPricingIncrease.resx">
+      <DependentUpon>frmEvaporatorBlygoldPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmCondensingUnitOptionsPriceIncrease.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitOptionsPriceIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmCondensingUnitPricingIncrease.resx">
+      <DependentUpon>frmCondensingUnitPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmControlPanelPanelAndOptionPrices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmControlPanelPanelAndOptionPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmEvaporatorOptionsPricingIncrease.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorOptionsPricingIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmGravityCoilPricingIncrease.resx">
+      <DependentUpon>frmGravityCoilPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmFluidCoolerPricingIncrease.resx">
+      <DependentUpon>frmFluidCoolerPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmCondenserPricingIncrease.resx">
+      <DependentUpon>frmCondenserPricingIncrease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmConfirmPriceChange.resx">
+      <DependentUpon>frmConfirmPriceChange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmEditPrice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmEvaporatorPricingIncrease.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorPricingIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmHeresiteSafety.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHeresiteSafety.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmMotorModel.resx">
+      <DependentUpon>frmMotorModel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmMotorMount.resx">
+      <DependentUpon>frmMotorMount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmFanGuard.resx">
+      <DependentUpon>frmFanGuard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Generic\frmFanModel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFanModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\OEMCoil\frmOEMCoilHeaderInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOEMCoilHeaderInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmCasingMaterialDensityPrices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCasingMaterialDensityPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmElectroFinAdjustement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmElectroFinAdjustement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingCoilBlygold.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingCoilBlygold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingCoilHeader.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingCoilHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmFinMaterialDensityPrices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFinMaterialDensityPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingCoilSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingCoilSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingElectroFinRate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingElectroFinRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingMadocRate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingMadocRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingMiscSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingMiscSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmPricingReturnBendCost.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPricingReturnBendCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\Pricing\frmTubeMaterialDensityPrices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTubeMaterialDensityPrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FluidCoolerCondenserOptions\frmFluidCoolerCondenserOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFluidCoolerCondenserOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact\frmContactInformations.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmContactInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBugReport.resx">
+      <DependentUpon>FrmBugReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClipboard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClipboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomReportLogo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomReportLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSavingOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSavingOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThreadProcess.resx">
+      <DependentUpon>frmThreadProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdates.resx">
+      <DependentUpon>frmUpdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OEMCoil\frmOEMCoil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOEMCoil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCoil\frmCoilCoating.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCoilCoating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCoil\frmOtherFluid.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOtherFluid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondenser\frmCircuitEdit.resx">
+      <DependentUpon>frmCircuitEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondenser\frmQuickCondenser.resx">
+      <DependentUpon>frmQuickCondenser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondensingUnit\frmCondensingUnitOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCondensingUnitOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCustomUnit\frmSaveTemplate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSaveTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickEvaporator\frmEvaporatorCoating.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorCoating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickEvaporator\frmEvaporatorOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvaporatorOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickGravityCoil\frmGravityCoil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGravityCoil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCoil\frmQuickCoil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickCoil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondensingUnit\frmQuickCondensingUnit.resx">
+      <DependentUpon>frmQuickCondensingUnit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickControlPanel\frmQuickControlPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickControlPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCustomUnit\frmQuickCustomUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickCustomUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCustomUnit\QuickCustomUnitSpec.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QuickCustomUnitSpec.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickEvaporator\frmQuickEvaporator.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickEvaporator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickFluidCooler\frmQuickFluidCooler.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickFluidCooler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickHeatPipe\frmQuickHeatPipe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickHeatPipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickWaterEvaporator\frmQuickWaterEvaporator.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuickWaterEvaporator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickWaterEvaporator\frmWaterEvaporatorCoating.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWaterEvaporatorCoating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickWaterEvaporator\frmWaterEvaporatorOption.resx">
+      <DependentUpon>frmWaterEvaporatorOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmAddEvapOption.resx">
+      <DependentUpon>frmAddEvapOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmAddCUOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddCUOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmAdditionalItems.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdditionalItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmOpenQuote.resx">
+      <DependentUpon>frmOpenQuote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmQuotePrintOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuotePrintOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmQuotes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\frmTag.resx">
+      <DependentUpon>frmTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\EngineeringReport\frmEngineeringReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEngineeringReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\frmExtraReports.resx">
+      <DependentUpon>frmExtraReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SalesReport\frmResults.resx">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SalesReport\frmSalesReport.resx">
+      <DependentUpon>frmSalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Public.cs" />
+    <Compile Include="Query.cs" />
+    <Compile Include="QuickCoil\CoilReport.cs" />
+    <Compile Include="QuickCoil\CoilReportDimension.cs" />
+    <Compile Include="QuickCoil\CoilWeight.cs" />
+    <Compile Include="QuickCoil\FluidCooling.cs" />
+    <Compile Include="QuickCoil\FluidHeating.cs" />
+    <Compile Include="QuickCoil\QuickCoilCode.cs" />
+    <Compile Include="QuickCoil\DX.cs" />
+    <Compile Include="QuickCoil\frmQuickCoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCoil\frmQuickCoil.Designer.cs">
+      <DependentUpon>frmQuickCoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCoil\HeatReclaim.cs" />
+    <Compile Include="QuickCoil\Steam.cs" />
+    <Compile Include="QuickCondensingUnit\CondensingUnitCode.cs" />
+    <Compile Include="QuickCondensingUnit\frmQuickCondensingUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCondensingUnit\frmQuickCondensingUnit.Designer.cs">
+      <DependentUpon>frmQuickCondensingUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickControlPanel\frmQuickControlPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickControlPanel\frmQuickControlPanel.Designer.cs">
+      <DependentUpon>frmQuickControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickControlPanel\ControlPanelCode.cs" />
+    <Compile Include="QuickControlPanel\Valve.cs" />
+    <Compile Include="QuickControlPanel\ValveList.cs" />
+    <Compile Include="QuickCustomUnit\frmQuickCustomUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickCustomUnit\frmQuickCustomUnit.Designer.cs">
+      <DependentUpon>frmQuickCustomUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickCustomUnit\QuickCustomUnitSpec.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuickCustomUnitSpec.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuickEvaporator\EvaporatorReport.cs" />
+    <Compile Include="QuickEvaporator\frmQuickEvaporator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickEvaporator\frmQuickEvaporator.Designer.cs">
+      <DependentUpon>frmQuickEvaporator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickEvaporator\QuickEvaporatorCode.cs" />
+    <Compile Include="QuickFluidCooler\FluidCoolerReport.cs" />
+    <Compile Include="QuickFluidCooler\frmQuickFluidCooler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickFluidCooler\frmQuickFluidCooler.Designer.cs">
+      <DependentUpon>frmQuickFluidCooler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickFluidCooler\FluidCoolerCode.cs" />
+    <Compile Include="QuickGravityCoil\QuickGravityCoilCode.cs" />
+    <Compile Include="QuickHeatPipe\frmQuickHeatPipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickHeatPipe\frmQuickHeatPipe.Designer.cs">
+      <DependentUpon>frmQuickHeatPipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickHeatPipe\HeatPipe.cs">
+    </Compile>
+    <Compile Include="QuickHeatPipe\HeatPipeReport.cs" />
+    <Compile Include="QuickHeatPipe\QuickHeatPipeCode.cs" />
+    <Compile Include="QuickWaterEvaporator\frmQuickWaterEvaporator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\frmQuickWaterEvaporator.Designer.cs">
+      <DependentUpon>frmQuickWaterEvaporator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\frmWaterEvaporatorCoating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\frmWaterEvaporatorCoating.Designer.cs">
+      <DependentUpon>frmWaterEvaporatorCoating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\frmWaterEvaporatorOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\frmWaterEvaporatorOption.Designer.cs">
+      <DependentUpon>frmWaterEvaporatorOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickWaterEvaporator\QuickWaterEvaporatorCode.cs" />
+    <Compile Include="QuickWaterEvaporator\WaterEvaporatorReport.cs" />
+    <Compile Include="Quotes\frmAddEvapOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmAddEvapOption.Designer.cs">
+      <DependentUpon>frmAddEvapOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmAddCUOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmAddCUOption.Designer.cs">
+      <DependentUpon>frmAddCUOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmAdditionalItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmAdditionalItems.Designer.cs">
+      <DependentUpon>frmAdditionalItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmOpenQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmOpenQuote.Designer.cs">
+      <DependentUpon>frmOpenQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmQuotePrintOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmQuotePrintOptions.Designer.cs">
+      <DependentUpon>frmQuotePrintOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmQuotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmQuotes.Designer.cs">
+      <DependentUpon>frmQuotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\frmTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\frmTag.Designer.cs">
+      <DependentUpon>frmTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\QuoteCode.cs" />
+    <Compile Include="Quotes\QuoteItem.cs" />
+    <Compile Include="RefrigerantCharge.cs" />
+    <Compile Include="Reg.cs" />
+    <Compile Include="Report\EngineeringReport\ER_Condenser.cs" />
+    <Compile Include="Report\EngineeringReport\ER_CondensingUnit.cs" />
+    <Compile Include="Report\EngineeringReport\frmEngineeringReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\EngineeringReport\frmEngineeringReport.Designer.cs">
+      <DependentUpon>frmEngineeringReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\frmExtraReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\frmExtraReports.Designer.cs">
+      <DependentUpon>frmExtraReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SalesReport\frmResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\SalesReport\frmResults.Designer.cs">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SalesReport\frmSalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\SalesReport\frmSalesReport.Designer.cs">
+      <DependentUpon>frmSalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundRatingManager.cs" />
+    <Compile Include="StringManipulation.cs" />
+    <Compile Include="Tables.cs" />
+    <Compile Include="ThreadProcess.cs" />
+    <Compile Include="Tools\Conversion.cs" />
+    <Compile Include="Tools\Formula.cs" />
+    <Compile Include="Tools\Fraction.cs" />
+    <Compile Include="Tools\Language.cs" />
+    <Compile Include="Tools\PsyCalcFormula.cs" />
+    <Compile Include="UserInformation.cs" />
+    <Compile Include="Web References\WebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Refplus 2.ico" />
+    <Content Include="Resources\RefplusBack.jpg" />
+    <Content Include="Resources\RefplusBack4.jpg" />
+    <None Include="Web References\WebService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.200.1/RefplusWebtools/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>http://192.168.200.1/RefplusWebtools/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RefplusWebtools_WebService_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RefplusWebtools.ico" />
+    <Content Include="Resources\RefplusBack2.jpg" />
+    <None Include="Resources\refresh_icon.bmp" />
+    <None Include="Resources\refresh_icon.jpg" />
+    <None Include="Resources\EcosaireBack.JPG" />
+    <None Include="Resources\EditItem.ico" />
+    <None Include="Resources\CirculaireBack.jpg" />
+    <None Include="Resources\DectronBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3924545A-F8E2-475A-B1A4-05175BC41E50}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLLCondenserReport\DLLCondenserReport.csproj">
+      <Project>{9CAA61D7-D2BF-497F-99B7-0049DC81FEED}</Project>
+      <Name>DLLCondenserReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLCondensingUnit\DLLCondensingUnit.csproj">
+      <Project>{09E06EA3-6B84-4180-8242-98AC07B6CB29}</Project>
+      <Name>DLLCondensingUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLCustomUnit\DLLCustomUnit.csproj">
+      <Project>{72918EB9-FF0A-43CA-8913-E7CD50B2ED72}</Project>
+      <Name>DLLCustomUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLEvaporatorReport\DLLEvaporatorReport.csproj">
+      <Project>{05B8F03F-5796-4E7B-80E1-56030323E686}</Project>
+      <Name>DLLEvaporatorReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLFluidCoolerReport\DLLFluidCoolerReport.csproj">
+      <Project>{9CDD287F-8E83-47B4-880D-46B1B462A134}</Project>
+      <Name>DLLFluidCoolerReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLGravityCoilReport\DLLGravityCoilReport.csproj">
+      <Project>{BC4CA4CB-9618-4C82-8F89-8E251AF6E8EB}</Project>
+      <Name>DLLGravityCoilReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLHeatPipeReport\DLLHeatPipeReport.csproj">
+      <Project>{8323B042-0385-4056-B588-270F83972A95}</Project>
+      <Name>DLLHeatPipeReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLOEMCoil\DLLOEMCoil.csproj">
+      <Project>{3B6DB59A-4811-495D-BA81-5016CB9E3336}</Project>
+      <Name>DLLOEMCoil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLWaterEvaporatorReport\DLLWaterEvaporatorReport.csproj">
+      <Project>{74E9A8C8-DDBA-4702-B417-DC65E4CE5F02}</Project>
+      <Name>DLLWaterEvaporatorReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.PowerPoint">
+      <Guid>{91493440-5A91-11CF-8700-00AA0060263B}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>10</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

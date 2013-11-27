@@ -1,0 +1,18 @@
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\bin\Debug\DLLCoilReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\bin\Debug\DLLCoilReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\obj\Debug\DLLCoilReport.QuickCoilSpec.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\obj\Debug\DLLCoilReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLCoilReport\obj\Debug\DLLCoilReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.QuickCoilSpec.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\bin\Debug\DLLCoilReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.QuickCoilSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLCoilReport\obj\Debug\DLLCoilReport.pdb

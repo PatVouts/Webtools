@@ -1,0 +1,8 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files (x86)\Common Files\Business Objects\2.7\Managed\C:\Program Files\Common Files\Business Objects\2.7\Managed\C:\Program Files (x86)\Business Objects\Common\4.0\managed\dotnet2;C:\Program Files\Business Objects\Common\4.0\managed\dotnet2</ReferencePath>
+  </PropertyGroup>
+</Project>

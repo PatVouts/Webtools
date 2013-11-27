@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="PricingCoverPageDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PricingCoverPageDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PricingCoverPage">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" type="xs:string" minOccurs="0" />
+              <xs:element name="Tag" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalPrice" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

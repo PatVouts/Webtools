@@ -1,0 +1,10 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondensingUnit\bin\Debug\DLLCondensingUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondensingUnit\bin\Debug\DLLCondensingUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondensingUnit\bin\Debug\DLLCondensingUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondensingUnit\bin\Debug\DLLCondensingUnit.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCondensingUnit\obj\Debug\DLLCondensingUnit.pdb

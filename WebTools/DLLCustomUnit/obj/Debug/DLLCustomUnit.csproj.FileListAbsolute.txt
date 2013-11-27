@@ -1,0 +1,10 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCustomUnit\bin\Debug\DLLCustomUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCustomUnit\bin\Debug\DLLCustomUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCustomUnit\obj\Debug\DLLCustomUnit.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCustomUnit\obj\Debug\DLLCustomUnit.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLCustomUnit\obj\Debug\DLLCustomUnit.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCustomUnit\bin\Debug\DLLCustomUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCustomUnit\bin\Debug\DLLCustomUnit.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCustomUnit\obj\Debug\DLLCustomUnit.csprojResolveAssemblyReference.cache
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCustomUnit\obj\Debug\DLLCustomUnit.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLCustomUnit\obj\Debug\DLLCustomUnit.pdb

@@ -1,0 +1,44 @@
+
+namespace DLLEvaporatorReport
+{
+    public class EvapSpecReportTranslation
+    {
+        public static void translateReport(QuickEvapSpec report, string language)
+        {
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section2.ReportObjects["txtQuoteNumberTitle1"]).Text = language == "EN" ? "Quote #" : "# de soumission";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.PageHeaderSection1.ReportObjects["txtQuoteNumberTitle2"]).Text = language == "EN" ? "Quote #" : "# de soumission";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtDesignParams"]).Text = language == "EN" ? "Design Parameters" : "Paramètres de conception";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtLiquidConnSize"]).Text = language == "EN" ? "Liquid Connection Size" : "Taille de raccordement liquide";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtSuctionConnSize"]).Text = language == "EN" ? "Suction Connection Size" : "Taille de raccordement d'aspiration";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtGasConnSize"]).Text = language == "EN" ? "Hot Gas Connection Size" : "Taille de raccordement au gaz chaud";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtGasConnSize"]).Text = language == "EN" ? "Hot Gas Connection Size" : "Taille de raccordement au gaz chaud";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtElectricalData"]).Text = language == "EN" ? "Electrical Data" : "Les données électriques";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtVoltage"]).Text = "Voltage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtMotorFLA"]).Text = language == "EN" ? "Motor FLA" : "FLA du moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtMCA"]).Text = language == "EN" ? "Motor MCA" : "MCA du moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtFuse"]).Text = language == "EN" ? "Motor Fuse" : "Fusible du moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtHeaterFLA"]).Text = language == "EN" ? "Heater FLA" : "FLA de chauffage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtHeaterMCA"]).Text = language == "EN" ? "Heater MCA" : "MCA de chauffage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtHeaterFuse"]).Text = language == "EN" ? "Heater Fuse" : "Fusible de chauffage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtMotorData"]).Text = language == "EN" ? "Motor Data" : "Les données de moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtMotorHP"]).Text = language == "EN" ? "Motor HP" : "HP du moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtMotorRPM"]).Text = language == "EN" ? "Motor RPM" : "RPM du moteur";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtHeaterData"]).Text = language == "EN" ? "Heater Data" : "Les données de chauffage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtHeaterKW"]).Text = language == "EN" ? "Heater Kilowatts" : "Kilowatts de chauffage";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtPerformanceData"]).Text = language == "EN" ? "Performance Data" : "Les données de performance";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtCapacity"]).Text = language == "EN" ? "Capacity" : "Capacité";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtTons"]).Text = language == "EN" ? "Tons" : "Tonnes";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtFPI"]).Text = "FPI";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtGeneralData"]).Text = language == "EN" ? "General Data" : "Données générales";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtFanArrangement"]).Text = language == "EN" ? "Fan Arrangement" : "Arrangement des hélices";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtShipWeight"]).Text = language == "EN" ? "Ship Weight" : "Poid à la livraison";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtRefrigerant"]).Text = language == "EN" ? "Refrigerant" : "Réfrigérant";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtRefCharge"]).Text = language == "EN" ? "Refrigerant Charge" : "Charge de réfrigérant";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtLiquidTemp"]).Text = language == "EN" ? "Liquid Temperature" : "Température du liquide";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtDimDrawing"]).Text = language == "EN" ? "Dimension Drawing" : "Dessin dimension";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtElecDrawing"]).Text = language == "EN" ? "Electrical Drawing" : "Dessin électrique";
+            ((CrystalDecisions.CrystalReports.Engine.TextObject)report.Section3.ReportObjects["txtCoilCoating"]).Text = language == "EN" ? "Coil Coating" : "Revêtement du Serpentin";
+            report.DataDefinition.FormulaFields["EqualizerNote"].Text = language == "EN" ? "if mid({Evaporators.EvaporatorID}, 1, 2) = \"LS\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LV\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LP\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LA\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EK\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EM\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EH\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EI\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EB\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EF\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESA452\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESA552\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESE452\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESE552\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"USA450\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"USA550\" then \"Externally equalized expansion valve is required with these models\" else if mid({Evaporators.EvaporatorID}, 1, 3) = \"ECA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"EDA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"EWA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"ESA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"ESE\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"UDA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"USA\" then \"Internally equalized expansion valve is required\" else \"\"" : "if mid({Evaporators.EvaporatorID}, 1, 2) = \"LS\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LV\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LP\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"LA\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EK\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EM\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EH\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EI\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EB\" or mid({Evaporators.EvaporatorID}, 1, 2) = \"EF\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESA452\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESA552\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESE452\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"ESE552\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"USA450\" or mid({Evaporators.EvaporatorID}, 1, 6) = \"USA550\" then \"Vanne d'expansion thermostatique avec ligne égalisatrice est requise avec ces modèles\" else if mid({Evaporators.EvaporatorID}, 1, 3) = \"ECA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"EDA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"EWA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"ESA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"ESE\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"UDA\" or mid({Evaporators.EvaporatorID}, 1, 3) = \"USA\" then \"Vanne d'expansion thermostatique sans ligne égalisatrice est requise\" else \"\"";
+        }
+    }
+}

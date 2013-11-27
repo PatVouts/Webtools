@@ -1,0 +1,23 @@
+Form Max Size = 800x700
+
+bigger than that need resize.
+
+2 group box.
+
+1 called grpInside set autosize = true and contain all the controls.
+put in grpOutside.
+
+grpOutside Max size = 745x620 (this count space between side and border of group, thickness of border
+and scroll bar horizontal on the bottom and scrollbar vertical on the right.
+
+grpOusite must have anchor 4 side.
+
+horizontal scrollbar min = 0, max = grpInside width + 25 - grpOutisde width
+Vertical Scrollbar min =0, max = grpInside height + 25 - grpOutside Height
+
+Horizontal scrollbar OnScrolling code is
+grpInside.Left = HorizontalScroll.Value * -1;
+
+
+Vertical scrollbar OnScrolling code is
+grpInside.Top = VerticalScroll.Value * -1;

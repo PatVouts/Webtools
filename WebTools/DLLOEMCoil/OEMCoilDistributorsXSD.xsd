@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="OEMCoilDistributorsDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="OEMCoilDistributorsDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OEMCoilDistributors" msdata:CaseSensitive="False" msdata:Locale="en-US">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemID" type="xs:int" minOccurs="0" />
+              <xs:element name="Username" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorsID" type="xs:int" minOccurs="0" />
+              <xs:element name="Input_Circuit" type="xs:int" minOccurs="0" />
+              <xs:element name="Input_Line" type="xs:int" minOccurs="0" />
+              <xs:element name="Input_Spigot" type="xs:int" minOccurs="0" />
+              <xs:element name="Input_Brand" type="xs:string" minOccurs="0" />
+              <xs:element name="Input_Model" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

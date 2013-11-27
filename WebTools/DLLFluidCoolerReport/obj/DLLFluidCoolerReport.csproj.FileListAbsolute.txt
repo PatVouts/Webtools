@@ -1,0 +1,27 @@
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.QuickFluidCoolerSpec.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.ControlPanelReport.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.SecondaryOptions.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.PumpReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.ControlPanelReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.PumpReport.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.QuickFluidCoolerSpec.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.SecondaryOptions.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\bin\Debug\DLLFluidCoolerReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.ControlPanelReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.PumpReport.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.QuickFluidCoolerSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.SecondaryOptions.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLFluidCoolerReport\obj\Debug\DLLFluidCoolerReport.pdb

@@ -1,0 +1,64 @@
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\bin\Debug\DLLPricingReports.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\bin\Debug\DLLPricingReports.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.CondenserPricing.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.ControlPanelPrice.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.ReceiverPrice.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.SecondaryOptionPrice.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.PumpPrice.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.FluidCoolerPricing.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.EvaporatorPricing.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.CoilPricing.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLPricingReports\obj\Debug\DLLPricingReports.PricingCoverPage.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondenserPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ControlPanelPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CoilPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.AdditionnalItemsPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondensingUnitPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondensingUnitOptionPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.GravityCoilPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.HeatPipePricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ManualCoilPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.PricingCoverPage.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.EvaporatorPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.PumpPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.FluidCoolerPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ReceiverPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.SecondaryOptionPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.OEMCoilPriceLine.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.OEMCoilPricing.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CustomUnitPrice.rpt
+C:\Repositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.EvaporatorOptionPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\bin\Debug\DLLPricingReports.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondenserPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ControlPanelPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CoilPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.AdditionnalItemsPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondensingUnitPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CondensingUnitOptionPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.CustomUnitPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.EvaporatorOptionPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.OEMCoilPriceLine.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.OEMCoilPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.GravityCoilPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.HeatPipePricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ManualCoilPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.PricingCoverPage.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.EvaporatorPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.PumpPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.FluidCoolerPricing.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.ReceiverPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.SecondaryOptionPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.WaterEvaporatorOptionPrice.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLPricingReports\obj\Debug\DLLPricingReports.WaterEvaporatorPricing.rpt

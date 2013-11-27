@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RefrigerantCircuitDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RefrigerantCircuitDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RefrigerantCircuitDATA" msprop:Generator_DataSetName="RefrigerantCircuitDATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RefrigerantCircuits" msprop:Generator_UserTableName="RefrigerantCircuits" msprop:Generator_RowDeletedName="RefrigerantCircuitsRowDeleted" msprop:Generator_TableClassName="RefrigerantCircuitsDataTable" msprop:Generator_RowChangedName="RefrigerantCircuitsRowChanged" msprop:Generator_RowClassName="RefrigerantCircuitsRow" msprop:Generator_RowChangingName="RefrigerantCircuitsRowChanging" msprop:Generator_RowEvArgName="RefrigerantCircuitsRowChangeEvent" msprop:Generator_RowEvHandlerName="RefrigerantCircuitsRowChangeEventHandler" msprop:Generator_TablePropName="RefrigerantCircuits" msprop:Generator_TableVarName="tableRefrigerantCircuits" msprop:Generator_RowDeletingName="RefrigerantCircuitsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" msprop:Generator_UserColumnName="QuoteID" msprop:Generator_ColumnPropNameInRow="QuoteID" msprop:Generator_ColumnVarNameInTable="columnQuoteID" msprop:Generator_ColumnPropNameInTable="QuoteIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" msprop:Generator_UserColumnName="QuoteRevision" msprop:Generator_ColumnPropNameInRow="QuoteRevision" msprop:Generator_ColumnVarNameInTable="columnQuoteRevision" msprop:Generator_ColumnPropNameInTable="QuoteRevisionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" msprop:Generator_UserColumnName="QuoteRevisionText" msprop:Generator_ColumnPropNameInRow="QuoteRevisionText" msprop:Generator_ColumnVarNameInTable="columnQuoteRevisionText" msprop:Generator_ColumnPropNameInTable="QuoteRevisionTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" msprop:Generator_UserColumnName="ItemType" msprop:Generator_ColumnPropNameInRow="ItemType" msprop:Generator_ColumnVarNameInTable="columnItemType" msprop:Generator_ColumnPropNameInTable="ItemTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemID" msprop:Generator_UserColumnName="ItemID" msprop:Generator_ColumnPropNameInRow="ItemID" msprop:Generator_ColumnVarNameInTable="columnItemID" msprop:Generator_ColumnPropNameInTable="ItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Username" msprop:Generator_UserColumnName="Username" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInTable="UsernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RefrigerantType" msprop:Generator_UserColumnName="RefrigerantType" msprop:Generator_ColumnPropNameInRow="RefrigerantType" msprop:Generator_ColumnVarNameInTable="columnRefrigerantType" msprop:Generator_ColumnPropNameInTable="RefrigerantTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CondenserTemperature" msprop:Generator_UserColumnName="CondenserTemperature" msprop:Generator_ColumnPropNameInRow="CondenserTemperature" msprop:Generator_ColumnVarNameInTable="columnCondenserTemperature" msprop:Generator_ColumnPropNameInTable="CondenserTemperatureColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="THR" msprop:Generator_UserColumnName="THR" msprop:Generator_ColumnPropNameInRow="THR" msprop:Generator_ColumnVarNameInTable="columnTHR" msprop:Generator_ColumnPropNameInTable="THRColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RefrigerantMultiplier" msprop:Generator_UserColumnName="RefrigerantMultiplier" msprop:Generator_ColumnPropNameInRow="RefrigerantMultiplier" msprop:Generator_ColumnVarNameInTable="columnRefrigerantMultiplier" msprop:Generator_ColumnPropNameInTable="RefrigerantMultiplierColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CircuitType" msprop:Generator_UserColumnName="CircuitType" msprop:Generator_ColumnPropNameInRow="CircuitType" msprop:Generator_ColumnVarNameInTable="columnCircuitType" msprop:Generator_ColumnPropNameInTable="CircuitTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NonConvertedTHR" msprop:Generator_UserColumnName="NonConvertedTHR" msprop:Generator_ColumnPropNameInRow="NonConvertedTHR" msprop:Generator_ColumnVarNameInTable="columnNonConvertedTHR" msprop:Generator_ColumnPropNameInTable="NonConvertedTHRColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CompressorType" msprop:Generator_UserColumnName="CompressorType" msprop:Generator_ColumnPropNameInRow="CompressorType" msprop:Generator_ColumnVarNameInTable="columnCompressorType" msprop:Generator_ColumnPropNameInTable="CompressorTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SST" msprop:Generator_UserColumnName="SST" msprop:Generator_ColumnPropNameInRow="SST" msprop:Generator_ColumnVarNameInTable="columnSST" msprop:Generator_ColumnPropNameInTable="SSTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TD" msprop:Generator_UserColumnName="TD" msprop:Generator_ColumnPropNameInRow="TD" msprop:Generator_ColumnVarNameInTable="columnTD" msprop:Generator_ColumnPropNameInTable="TDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="THR_PER_TD" msprop:Generator_UserColumnName="THR_PER_TD" msprop:Generator_ColumnPropNameInRow="THR_PER_TD" msprop:Generator_ColumnVarNameInTable="columnTHR_PER_TD" msprop:Generator_ColumnPropNameInTable="THR_PER_TDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Circ_Capacity" msprop:Generator_UserColumnName="Circ_Capacity" msprop:Generator_ColumnPropNameInRow="Circ_Capacity" msprop:Generator_ColumnVarNameInTable="columnCirc_Capacity" msprop:Generator_ColumnPropNameInTable="Circ_CapacityColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Circ_Quantity" msprop:Generator_UserColumnName="Circ_Quantity" msprop:Generator_ColumnPropNameInRow="Circ_Quantity" msprop:Generator_ColumnVarNameInTable="columnCirc_Quantity" msprop:Generator_ColumnPropNameInTable="Circ_QuantityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Circ_Quantity_Total" msprop:Generator_UserColumnName="Circ_Quantity_Total" msprop:Generator_ColumnPropNameInRow="Circ_Quantity_Total" msprop:Generator_ColumnVarNameInTable="columnCirc_Quantity_Total" msprop:Generator_ColumnPropNameInTable="Circ_Quantity_TotalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AltitudeAdjustment" msprop:Generator_UserColumnName="AltitudeAdjustment" msprop:Generator_ColumnPropNameInRow="AltitudeAdjustment" msprop:Generator_ColumnVarNameInTable="columnAltitudeAdjustment" msprop:Generator_ColumnPropNameInTable="AltitudeAdjustmentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HertzAdjustment" msprop:Generator_UserColumnName="HertzAdjustment" msprop:Generator_ColumnPropNameInRow="HertzAdjustment" msprop:Generator_ColumnVarNameInTable="columnHertzAdjustment" msprop:Generator_ColumnPropNameInTable="HertzAdjustmentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AmbientTemperature" msprop:Generator_UserColumnName="AmbientTemperature" msprop:Generator_ColumnPropNameInRow="AmbientTemperature" msprop:Generator_ColumnVarNameInTable="columnAmbientTemperature" msprop:Generator_ColumnPropNameInTable="AmbientTemperatureColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Calculated" msprop:Generator_UserColumnName="Calculated" msprop:Generator_ColumnPropNameInRow="Calculated" msprop:Generator_ColumnVarNameInTable="columnCalculated" msprop:Generator_ColumnPropNameInTable="CalculatedColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Inlet" msprop:Generator_UserColumnName="Inlet" msprop:Generator_ColumnPropNameInRow="Inlet" msprop:Generator_ColumnVarNameInTable="columnInlet" msprop:Generator_ColumnPropNameInTable="InletColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Outlet" msprop:Generator_UserColumnName="Outlet" msprop:Generator_ColumnPropNameInRow="Outlet" msprop:Generator_ColumnVarNameInTable="columnOutlet" msprop:Generator_ColumnPropNameInTable="OutletColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

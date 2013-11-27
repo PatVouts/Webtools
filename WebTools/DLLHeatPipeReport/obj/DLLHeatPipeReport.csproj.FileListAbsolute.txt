@@ -1,0 +1,18 @@
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.pdb
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.QuickHeatPipeSpec.rpt
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.dll
+C:\Documents and Settings\frouleau\My Documents\Visual Studio 2005\Projects\RefplusWebtools\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.dll
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.pdb
+C:\Repositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.HeatPipeSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\bin\Debug\DLLHeatPipeReport.pdb
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\ResolveAssemblyReference.cache
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.HeatPipeSpec.rpt
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.dll
+C:\SVNRepositories\REFPLUS_WEBTOOLS\DLLHeatPipeReport\obj\Debug\DLLHeatPipeReport.pdb

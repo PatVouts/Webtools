@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09E06EA3-6B84-4180-8242-98AC07B6CB29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DLLCondensingUnit</RootNamespace>
+    <AssemblyName>DLLCondensingUnit</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompressorReportTranslation.cs" />
+    <Compile Include="CondensingUnitCompressorsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitCompressorsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnitOptionsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnitReportTranslation.cs" />
+    <Compile Include="CondensingUnitWaterCooledCondensersXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitWaterCooledCondensersXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnitXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Compressor.cs">
+      <DependentUpon>Compressor.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CondensingUnitOptions.cs">
+      <DependentUpon>CondensingUnitOptions.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CUEngineeringReportBalancing.cs">
+      <DependentUpon>CUEngineeringReportBalancing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CUEngineeringReportCompressorTranslation.cs" />
+    <Compile Include="CUEngineeringReportTranslation.cs" />
+    <Compile Include="CUEngineeringReportWaterCooledCondenser.cs">
+      <DependentUpon>CUEngineeringReportWaterCooledCondenser.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CUEngineeringReportCompressor.cs">
+      <DependentUpon>CUEngineeringReportCompressor.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CUEngineeringReport.cs">
+      <DependentUpon>CUEngineeringReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CUBalancingXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CUBalancingXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CUCompressorReceiverXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CUCompressorReceiverXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CUMainXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CUMainXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CUWaterCooledXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CUWaterCooledXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CUWaterCoolerCondenserReportTranslation.cs" />
+    <Compile Include="WaterCooledCondenser.cs">
+      <DependentUpon>WaterCooledCondenser.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickCondensingUnitSpec.cs">
+      <DependentUpon>QuickCondensingUnitSpec.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WaterCooledCondenserReportTranslation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CondensingUnitCompressorsXSD.xsc">
+      <DependentUpon>CondensingUnitCompressorsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitCompressorsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitCompressorsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondensingUnitCompressorsXSD.xss">
+      <DependentUpon>CondensingUnitCompressorsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xsc">
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitOptionsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xss">
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitWaterCooledCondensersXSD.xsc">
+      <DependentUpon>CondensingUnitWaterCooledCondensersXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitWaterCooledCondensersXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitWaterCooledCondensersXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondensingUnitWaterCooledCondensersXSD.xss">
+      <DependentUpon>CondensingUnitWaterCooledCondensersXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitXSD.xsc">
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondensingUnitXSD.xss">
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUBalancingXSD.xsc">
+      <DependentUpon>CUBalancingXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUBalancingXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CUBalancingXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CUBalancingXSD.xss">
+      <DependentUpon>CUBalancingXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUCompressorReceiverXSD.xsc">
+      <DependentUpon>CUCompressorReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUCompressorReceiverXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CUCompressorReceiverXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CUCompressorReceiverXSD.xss">
+      <DependentUpon>CUCompressorReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUMainXSD.xsc">
+      <DependentUpon>CUMainXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUMainXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CUMainXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CUMainXSD.xss">
+      <DependentUpon>CUMainXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUWaterCooledXSD.xsc">
+      <DependentUpon>CUWaterCooledXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CUWaterCooledXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CUWaterCooledXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CUWaterCooledXSD.xss">
+      <DependentUpon>CUWaterCooledXSD.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Compressor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Compressor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CondensingUnitOptions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CondensingUnitOptions.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUEngineeringReportBalancing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CUEngineeringReportBalancing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUEngineeringReportWaterCooledCondenser.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CUEngineeringReportWaterCooledCondenser.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUEngineeringReportCompressor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CUEngineeringReportCompressor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUEngineeringReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CUEngineeringReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterCooledCondenser.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WaterCooledCondenser.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickCondensingUnitSpec.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QuickCondensingUnitSpec.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3924545A-F8E2-475A-B1A4-05175BC41E50}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

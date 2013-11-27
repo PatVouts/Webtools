@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GravityCoilDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GravityCoilDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GravityCoilDATA" msprop:Generator_DataSetName="GravityCoilDATA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GravityCoils" msprop:Generator_UserTableName="GravityCoils" msprop:Generator_RowDeletedName="GravityCoilsRowDeleted" msprop:Generator_TableClassName="GravityCoilsDataTable" msprop:Generator_RowChangedName="GravityCoilsRowChanged" msprop:Generator_RowClassName="GravityCoilsRow" msprop:Generator_RowChangingName="GravityCoilsRowChanging" msprop:Generator_RowEvArgName="GravityCoilsRowChangeEvent" msprop:Generator_RowEvHandlerName="GravityCoilsRowChangeEventHandler" msprop:Generator_TablePropName="GravityCoils" msprop:Generator_TableVarName="tableGravityCoils" msprop:Generator_RowDeletingName="GravityCoilsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" msprop:Generator_UserColumnName="QuoteID" msprop:Generator_ColumnPropNameInRow="QuoteID" msprop:Generator_ColumnVarNameInTable="columnQuoteID" msprop:Generator_ColumnPropNameInTable="QuoteIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" msprop:Generator_UserColumnName="QuoteRevision" msprop:Generator_ColumnPropNameInRow="QuoteRevision" msprop:Generator_ColumnVarNameInTable="columnQuoteRevision" msprop:Generator_ColumnPropNameInTable="QuoteRevisionColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" msprop:Generator_UserColumnName="QuoteRevisionText" msprop:Generator_ColumnPropNameInRow="QuoteRevisionText" msprop:Generator_ColumnVarNameInTable="columnQuoteRevisionText" msprop:Generator_ColumnPropNameInTable="QuoteRevisionTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" msprop:Generator_UserColumnName="ItemType" msprop:Generator_ColumnPropNameInRow="ItemType" msprop:Generator_ColumnVarNameInTable="columnItemType" msprop:Generator_ColumnPropNameInTable="ItemTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemID" msprop:Generator_UserColumnName="ItemID" msprop:Generator_ColumnPropNameInRow="ItemID" msprop:Generator_ColumnVarNameInTable="columnItemID" msprop:Generator_ColumnPropNameInTable="ItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Username" msprop:Generator_UserColumnName="Username" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInTable="UsernameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Input_Tag" msprop:Generator_UserColumnName="Input_Tag" msprop:Generator_ColumnPropNameInRow="Input_Tag" msprop:Generator_ColumnVarNameInTable="columnInput_Tag" msprop:Generator_ColumnPropNameInTable="Input_TagColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CapacityInput" msprop:Generator_UserColumnName="CapacityInput" msprop:Generator_ColumnPropNameInRow="CapacityInput" msprop:Generator_ColumnVarNameInTable="columnCapacityInput" msprop:Generator_ColumnPropNameInTable="CapacityInputColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MinMultiplierInput" msprop:Generator_UserColumnName="MinMultiplierInput" msprop:Generator_ColumnPropNameInRow="MinMultiplierInput" msprop:Generator_ColumnVarNameInTable="columnMinMultiplierInput" msprop:Generator_ColumnPropNameInTable="MinMultiplierInputColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxMultiplierInput" msprop:Generator_UserColumnName="MaxMultiplierInput" msprop:Generator_ColumnPropNameInRow="MaxMultiplierInput" msprop:Generator_ColumnVarNameInTable="columnMaxMultiplierInput" msprop:Generator_ColumnPropNameInTable="MaxMultiplierInputColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FaceTubesInput" msprop:Generator_UserColumnName="FaceTubesInput" msprop:Generator_ColumnPropNameInRow="FaceTubesInput" msprop:Generator_ColumnVarNameInTable="columnFaceTubesInput" msprop:Generator_ColumnPropNameInTable="FaceTubesInputColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RefrigerantInput" msprop:Generator_UserColumnName="RefrigerantInput" msprop:Generator_ColumnPropNameInRow="RefrigerantInput" msprop:Generator_ColumnVarNameInTable="columnRefrigerantInput" msprop:Generator_ColumnPropNameInTable="RefrigerantInputColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CoilCoatingInput" msprop:Generator_UserColumnName="CoilCoatingInput" msprop:Generator_ColumnPropNameInRow="CoilCoatingInput" msprop:Generator_ColumnVarNameInTable="columnCoilCoatingInput" msprop:Generator_ColumnPropNameInTable="CoilCoatingInputColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Model" msprop:Generator_UserColumnName="Model" msprop:Generator_ColumnPropNameInRow="Model" msprop:Generator_ColumnVarNameInTable="columnModel" msprop:Generator_ColumnPropNameInTable="ModelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Evaporator" msprop:Generator_UserColumnName="Evaporator" msprop:Generator_ColumnPropNameInRow="Evaporator" msprop:Generator_ColumnVarNameInTable="columnEvaporator" msprop:Generator_ColumnPropNameInTable="EvaporatorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Gravity" msprop:Generator_UserColumnName="Gravity" msprop:Generator_ColumnPropNameInRow="Gravity" msprop:Generator_ColumnVarNameInTable="columnGravity" msprop:Generator_ColumnPropNameInTable="GravityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AirDefrost" msprop:Generator_UserColumnName="AirDefrost" msprop:Generator_ColumnPropNameInRow="AirDefrost" msprop:Generator_ColumnVarNameInTable="columnAirDefrost" msprop:Generator_ColumnPropNameInTable="AirDefrostColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FaceTubes" msprop:Generator_UserColumnName="FaceTubes" msprop:Generator_ColumnPropNameInRow="FaceTubes" msprop:Generator_ColumnVarNameInTable="columnFaceTubes" msprop:Generator_ColumnPropNameInTable="FaceTubesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Slab" msprop:Generator_UserColumnName="Slab" msprop:Generator_ColumnPropNameInRow="Slab" msprop:Generator_ColumnVarNameInTable="columnSlab" msprop:Generator_ColumnPropNameInTable="SlabColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FPI" msprop:Generator_UserColumnName="FPI" msprop:Generator_ColumnPropNameInRow="FPI" msprop:Generator_ColumnVarNameInTable="columnFPI" msprop:Generator_ColumnPropNameInTable="FPIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FinPattern" msprop:Generator_UserColumnName="FinPattern" msprop:Generator_ColumnPropNameInRow="FinPattern" msprop:Generator_ColumnVarNameInTable="columnFinPattern" msprop:Generator_ColumnPropNameInTable="FinPatternColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FinLength" msprop:Generator_UserColumnName="FinLength" msprop:Generator_ColumnPropNameInRow="FinLength" msprop:Generator_ColumnVarNameInTable="columnFinLength" msprop:Generator_ColumnPropNameInTable="FinLengthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Capacity" msprop:Generator_UserColumnName="Capacity" msprop:Generator_ColumnPropNameInRow="Capacity" msprop:Generator_ColumnVarNameInTable="columnCapacity" msprop:Generator_ColumnPropNameInTable="CapacityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ListPrice" msprop:Generator_UserColumnName="ListPrice" msprop:Generator_ColumnPropNameInRow="ListPrice" msprop:Generator_ColumnVarNameInTable="columnListPrice" msprop:Generator_ColumnPropNameInTable="ListPriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CoatingPrice" msprop:Generator_UserColumnName="CoatingPrice" msprop:Generator_ColumnPropNameInRow="CoatingPrice" msprop:Generator_ColumnVarNameInTable="columnCoatingPrice" msprop:Generator_ColumnPropNameInTable="CoatingPriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Depth" msprop:Generator_UserColumnName="Depth" msprop:Generator_ColumnPropNameInRow="Depth" msprop:Generator_ColumnVarNameInTable="columnDepth" msprop:Generator_ColumnPropNameInTable="DepthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_UserColumnName="Height" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInTable="HeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Width" msprop:Generator_UserColumnName="Width" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInTable="WidthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RefrigerantCharge" msprop:Generator_UserColumnName="RefrigerantCharge" msprop:Generator_ColumnPropNameInRow="RefrigerantCharge" msprop:Generator_ColumnVarNameInTable="columnRefrigerantCharge" msprop:Generator_ColumnPropNameInTable="RefrigerantChargeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ShippingWeight" msprop:Generator_UserColumnName="ShippingWeight" msprop:Generator_ColumnPropNameInRow="ShippingWeight" msprop:Generator_ColumnVarNameInTable="columnShippingWeight" msprop:Generator_ColumnPropNameInTable="ShippingWeightColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ApprovalDrawing" msprop:Generator_UserColumnName="ApprovalDrawing" msprop:Generator_ColumnPropNameInRow="ApprovalDrawing" msprop:Generator_ColumnVarNameInTable="columnApprovalDrawing" msprop:Generator_ColumnPropNameInTable="ApprovalDrawingColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

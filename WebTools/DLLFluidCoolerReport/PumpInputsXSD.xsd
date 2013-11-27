@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="PumpInputsDATA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PumpInputsDATA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PumpInputs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevision" type="xs:int" minOccurs="0" />
+              <xs:element name="QuoteRevisionText" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemType" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemID" type="xs:int" minOccurs="0" />
+              <xs:element name="Username" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpNomenclature" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpType" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpModel" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Impellar" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FLA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Frame" type="xs:string" minOccurs="0" />
+              <xs:element name="Drawing" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpBoxDrawing" type="xs:string" minOccurs="0" />
+              <xs:element name="RPM" type="xs:int" minOccurs="0" />
+              <xs:element name="HP" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalFeetOfHead" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NumberOfPump" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpansionTankKit" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpansionTankKitModel" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpansionTankKitPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Valve" type="xs:string" minOccurs="0" />
+              <xs:element name="ValveType" type="xs:string" minOccurs="0" />
+              <xs:element name="ValveCV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ValveConnectionSize" type="xs:string" minOccurs="0" />
+              <xs:element name="ValvePrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TubeDiameter" type="xs:string" minOccurs="0" />
+              <xs:element name="PumpOption" type="xs:string" minOccurs="0" />
+              <xs:element name="OptionPrice" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

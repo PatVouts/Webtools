@@ -1,0 +1,8 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLOEMCoil\bin\Debug\DLLOEMCoil.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLOEMCoil\bin\Debug\DLLOEMCoil.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLOEMCoil\obj\Debug\DLLOEMCoil.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLOEMCoil\obj\Debug\DLLOEMCoil.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLOEMCoil\bin\Debug\DLLOEMCoil.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLOEMCoil\bin\Debug\DLLOEMCoil.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLOEMCoil\obj\Debug\DLLOEMCoil.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLOEMCoil\obj\Debug\DLLOEMCoil.pdb

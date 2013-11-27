@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{882427BD-20F0-4D2A-A10C-23BB5612E61D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DLLPricingReports</RootNamespace>
+    <AssemblyName>DLLPricingReports</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalItemsTranslation.cs" />
+    <Compile Include="AdditionalItemsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdditionalItemsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoilPricingTranslation.cs" />
+    <Compile Include="CoilXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoilXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondenserPricing.cs">
+      <DependentUpon>CondenserPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CondenserPricingTranslation.cs" />
+    <Compile Include="CondenserXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnitOptionsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnitPricingTranslation.cs" />
+    <Compile Include="CondensingUnitXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanelPrice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlPanelPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlPanelTranslation.cs" />
+    <Compile Include="ControlPanelXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CoilPricing.cs">
+      <DependentUpon>CoilPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="AdditionnalItemsPrice.cs">
+      <DependentUpon>AdditionnalItemsPrice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CondensingUnitPricing.cs">
+      <DependentUpon>CondensingUnitPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CondensingUnitOptionPrice.cs">
+      <DependentUpon>CondensingUnitOptionPrice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WaterEvaporatorPricingTranslation.cs" />
+    <Compile Include="WaterEvaporatorOptionPrice.cs">
+      <DependentUpon>WaterEvaporatorOptionPrice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="WaterEvaporatorPricing.cs">
+      <DependentUpon>WaterEvaporatorPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CustomUnitPrice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomUnitPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomUnitPricingTranslation.cs" />
+    <Compile Include="EvaporatorOptionPrice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaporatorOptionPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EvaporatorOptionXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaporatorOptionXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FluidCoolerXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FluidCoolerXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OEMCoilPriceLine.cs">
+      <DependentUpon>OEMCoilPriceLine.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="OEMCoilPricing.cs">
+      <DependentUpon>OEMCoilPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="EvaporatorXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvaporatorXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GravityCoilPricing.cs">
+      <DependentUpon>GravityCoilPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="GravityCoilPricingTranslation.cs" />
+    <Compile Include="GravityCoilXSD.cs">
+      <DependentUpon>GravityCoilXSD.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GravityCoilXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GravityCoilXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HeatPipePricing.cs">
+      <DependentUpon>HeatPipePricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="EvaporatorPricingTranslation.cs" />
+    <Compile Include="FluidCoolerPricingTranslation.cs" />
+    <Compile Include="HeatPipePricingTranslation.cs" />
+    <Compile Include="HeatPipeXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeatPipeXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManualCoilPricing.cs">
+      <DependentUpon>ManualCoilPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ManualCoilPricingTranslation.cs" />
+    <Compile Include="OEMCoilPriceXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OEMCoilPriceXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OEMCoilXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OEMCoilXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OEMPriceLineTranslation.cs" />
+    <Compile Include="OEMPricingTranslation.cs" />
+    <Compile Include="PricingCoverPage.cs">
+      <DependentUpon>PricingCoverPage.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="EvaporatorPricing.cs">
+      <DependentUpon>EvaporatorPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="PricingCoverPageXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PricingCoverPageXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PricingPageTranslation.cs" />
+    <Compile Include="PumpPrice.cs">
+      <DependentUpon>PumpPrice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FluidCoolerPricing.cs">
+      <DependentUpon>FluidCoolerPricing.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PumpInputsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PumpInputsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PumpPriceTranslation.cs" />
+    <Compile Include="QuickCustomUnitXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuickCustomUnitXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuickManualCoilXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuickManualCoilXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiverPrice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiverPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReceiverPriceTranslation.cs" />
+    <Compile Include="ReceiverXSD.cs">
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReceiverXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SecondaryOptionPrice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecondaryOptionPrice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SecondaryOptionsTranslation.cs" />
+    <Compile Include="SecondaryOptionsXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WaterEvaporatorOptionXSD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WaterEvaporatorOptionXSD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WaterEvaporatorXSD.cs">
+      <DependentUpon>WaterEvaporatorXSD.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WaterEvaporatorXSD.designer.cs">
+      <DependentUpon>WaterEvaporatorXSD.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3924545A-F8E2-475A-B1A4-05175BC41E50}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CondenserPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CondenserPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanelPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ControlPanelPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoilPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CoilPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdditionnalItemsPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AdditionnalItemsPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CondensingUnitPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CondensingUnitPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CondensingUnitOptionPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CondensingUnitOptionPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterEvaporatorOptionPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WaterEvaporatorOptionPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterEvaporatorPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WaterEvaporatorPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomUnitPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CustomUnitPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaporatorOptionPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EvaporatorOptionPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OEMCoilPriceLine.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OEMCoilPriceLine.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OEMCoilPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OEMCoilPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GravityCoilPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GravityCoilPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeatPipePricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HeatPipePricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualCoilPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ManualCoilPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricingCoverPage.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PricingCoverPage.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaporatorPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EvaporatorPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PumpPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PumpPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FluidCoolerPricing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FluidCoolerPricing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiverPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReceiverPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondaryOptionPrice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SecondaryOptionPrice.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdditionalItemsXSD.xsc">
+      <DependentUpon>AdditionalItemsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="AdditionalItemsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdditionalItemsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdditionalItemsXSD.xss">
+      <DependentUpon>AdditionalItemsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CoilXSD.xsc">
+      <DependentUpon>CoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CoilXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoilXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CoilXSD.xss">
+      <DependentUpon>CoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondenserXSD.xsc">
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondenserXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondenserXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CondenserXSD.xss">
+      <DependentUpon>CondenserXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xsc">
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitOptionsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CondensingUnitOptionsXSD.xss">
+      <DependentUpon>CondensingUnitOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitXSD.xsc">
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="CondensingUnitXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CondensingUnitXSD.xss">
+      <DependentUpon>CondensingUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ControlPanelXSD.xsc">
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ControlPanelXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ControlPanelXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ControlPanelXSD.xss">
+      <DependentUpon>ControlPanelXSD.xsd</DependentUpon>
+    </None>
+    <None Include="EvaporatorOptionXSD.xsc">
+      <DependentUpon>EvaporatorOptionXSD.xsd</DependentUpon>
+    </None>
+    <None Include="EvaporatorOptionXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EvaporatorOptionXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EvaporatorOptionXSD.xss">
+      <DependentUpon>EvaporatorOptionXSD.xsd</DependentUpon>
+    </None>
+    <None Include="EvaporatorXSD.xsc">
+      <DependentUpon>EvaporatorXSD.xsd</DependentUpon>
+    </None>
+    <None Include="EvaporatorXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EvaporatorXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EvaporatorXSD.xss">
+      <DependentUpon>EvaporatorXSD.xsd</DependentUpon>
+    </None>
+    <None Include="FluidCoolerXSD.xsc">
+      <DependentUpon>FluidCoolerXSD.xsd</DependentUpon>
+    </None>
+    <None Include="FluidCoolerXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FluidCoolerXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FluidCoolerXSD.xss">
+      <DependentUpon>FluidCoolerXSD.xsd</DependentUpon>
+    </None>
+    <None Include="GravityCoilXSD.xsc">
+      <DependentUpon>GravityCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="GravityCoilXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GravityCoilXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GravityCoilXSD.xss">
+      <DependentUpon>GravityCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="HeatPipeXSD.xsc">
+      <DependentUpon>HeatPipeXSD.xsd</DependentUpon>
+    </None>
+    <None Include="HeatPipeXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HeatPipeXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HeatPipeXSD.xss">
+      <DependentUpon>HeatPipeXSD.xsd</DependentUpon>
+    </None>
+    <None Include="OEMCoilPriceXSD.xsc">
+      <DependentUpon>OEMCoilPriceXSD.xsd</DependentUpon>
+    </None>
+    <None Include="OEMCoilPriceXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OEMCoilPriceXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OEMCoilPriceXSD.xss">
+      <DependentUpon>OEMCoilPriceXSD.xsd</DependentUpon>
+    </None>
+    <None Include="OEMCoilXSD.xsc">
+      <DependentUpon>OEMCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="OEMCoilXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OEMCoilXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OEMCoilXSD.xss">
+      <DependentUpon>OEMCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="PricingCoverPageXSD.xsc">
+      <DependentUpon>PricingCoverPageXSD.xsd</DependentUpon>
+    </None>
+    <None Include="PricingCoverPageXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PricingCoverPageXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PricingCoverPageXSD.xss">
+      <DependentUpon>PricingCoverPageXSD.xsd</DependentUpon>
+    </None>
+    <None Include="PumpInputsXSD.xsc">
+      <DependentUpon>PumpInputsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="PumpInputsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PumpInputsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PumpInputsXSD.xss">
+      <DependentUpon>PumpInputsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="QuickCustomUnitXSD.xsc">
+      <DependentUpon>QuickCustomUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="QuickCustomUnitXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuickCustomUnitXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QuickCustomUnitXSD.xss">
+      <DependentUpon>QuickCustomUnitXSD.xsd</DependentUpon>
+    </None>
+    <None Include="QuickManualCoilXSD.xsc">
+      <DependentUpon>QuickManualCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="QuickManualCoilXSD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuickManualCoilXSD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QuickManualCoilXSD.xss">
+      <DependentUpon>QuickManualCoilXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiverXSD.xsc">
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiverXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiverXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReceiverXSD.xss">
+      <DependentUpon>ReceiverXSD.xsd</DependentUpon>
+    </None>
+    <None Include="SecondaryOptionsXSD.xsc">
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="SecondaryOptionsXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SecondaryOptionsXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecondaryOptionsXSD.xss">
+      <DependentUpon>SecondaryOptionsXSD.xsd</DependentUpon>
+    </None>
+    <None Include="WaterEvaporatorOptionXSD.xsc">
+      <DependentUpon>WaterEvaporatorOptionXSD.xsd</DependentUpon>
+    </None>
+    <None Include="WaterEvaporatorOptionXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WaterEvaporatorOptionXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WaterEvaporatorOptionXSD.xss">
+      <DependentUpon>WaterEvaporatorOptionXSD.xsd</DependentUpon>
+    </None>
+    <None Include="WaterEvaporatorXSD.xsc">
+      <DependentUpon>WaterEvaporatorXSD.xsd</DependentUpon>
+    </None>
+    <None Include="WaterEvaporatorXSD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WaterEvaporatorXSD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WaterEvaporatorXSD.xss">
+      <DependentUpon>WaterEvaporatorXSD.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+U:\Patrice\REFPLUS_WEBTOOLS\DLLEvaporatorReport\bin\Debug\DLLEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLEvaporatorReport\bin\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\REFPLUS_WEBTOOLS\DLLEvaporatorReport\obj\Debug\DLLEvaporatorReport.dll
+U:\Patrice\REFPLUS_WEBTOOLS\DLLEvaporatorReport\obj\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLEvaporatorReport\bin\Debug\DLLEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLEvaporatorReport\bin\Debug\DLLEvaporatorReport.pdb
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLEvaporatorReport\obj\Debug\DLLEvaporatorReport.dll
+U:\Patrice\WORKING REFPLUS WEBTOOLS\WebTools\DLLEvaporatorReport\obj\Debug\DLLEvaporatorReport.pdb
